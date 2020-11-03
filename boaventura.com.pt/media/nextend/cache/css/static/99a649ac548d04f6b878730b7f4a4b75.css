@@ -1,0 +1,2193 @@
+/* Thursday 13th of July 2017 02:22:55 PM*/
+
+.nextend-image {
+    cursor: pointer;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;  
+}
+
+.nextend-element .nextend-image{
+    margin-top: 0;
+}
+
+.nextend-image-next-circle-button{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-next-circle-button:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-previous-circle-button{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-previous-circle-button:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-next-circle-button-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-vertical.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-next-circle-button-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-vertical.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-previous-circle-button-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-vertical.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-previous-circle-button-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-vertical.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-next-circle-button-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-cream.png);
+    width: 36px;
+    height: 36px;
+}
+
+.nextend-image-next-circle-button-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-cream.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-previous-circle-button-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-cream.png);
+    width: 36px;
+    height: 36px;
+}
+
+.nextend-image-previous-circle-button-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-cream.png);
+    background-position: 36px 0;
+}
+
+
+.nextend-image-next-circle-button-cream-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-cream-vertical.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-next-circle-button-cream-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-button-cream-vertical.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-previous-circle-button-cream-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-cream-vertical.png);
+    width: 36px;
+    height: 32px;
+}
+
+.nextend-image-previous-circle-button-cream-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-button-cream-vertical.png);
+    background-position: 36px 0;
+}
+
+.nextend-image-next-rectangle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rectangle.png);
+    width: 40px;
+    height: 50px;
+}
+
+.nextend-image-next-rectangle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rectangle.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-rectangle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rectangle.png);
+    width: 40px;
+    height: 50px;
+}
+
+.nextend-image-previous-rectangle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rectangle.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-half-circle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle.png);
+    width: 60px;
+    height: 120px;
+}
+
+.nextend-image-next-half-circle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle.png);
+    background-position: 60px 0;
+}
+
+.nextend-image-previous-half-circle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle.png);
+    width: 60px;
+    height: 120px;
+}
+
+.nextend-image-previous-half-circle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle.png);
+    background-position: 60px 0;
+}
+
+.nextend-image-next-half-circle-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-cream.png);
+    width: 58px;
+    height: 126px;
+}
+
+.nextend-image-next-half-circle-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-cream.png);
+    background-position: 70px 0;
+}
+
+.nextend-image-previous-half-circle-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-cream.png);
+    background-position: -6px 0;
+    width: 58px;
+    height: 126px;
+}
+
+.nextend-image-previous-half-circle-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-cream.png);
+    background-position: 64px 0;
+}
+
+.nextend-image-next-half-circle-small{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-small.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-next-half-circle-small:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-small.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-half-circle-small{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-small.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-previous-half-circle-small:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-small.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-half-circle-outer-small{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer-small.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-next-half-circle-outer-small:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer-small.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-half-circle-outer-small{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer-small.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-previous-half-circle-outer-small:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer-small.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-half-circle-outer-small-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer-small-cream.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-next-half-circle-outer-small-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer-small-cream.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-half-circle-outer-small-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer-small-cream.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-previous-half-circle-outer-small-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer-small-cream.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-half-circle-small-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-small-cream.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-next-half-circle-small-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-small-cream.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-half-circle-small-cream{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-small-cream.png);
+    width: 40px;
+    height: 70px;
+}
+
+.nextend-image-previous-half-circle-small-cream:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-small-cream.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-simple-white{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-white.png);
+    width: 40px;
+    height: 55px;
+}
+
+.nextend-image-next-simple-white:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-white.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-simple-white{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-white.png);
+    width: 40px;
+    height: 55px;
+}
+
+.nextend-image-previous-simple-white:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-white.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-simple-black{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-black.png);
+    width: 40px;
+    height: 55px;
+}
+
+.nextend-image-next-simple-black:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-black.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-previous-simple-black{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-black.png);
+    width: 40px;
+    height: 55px;
+}
+
+.nextend-image-previous-simple-black:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-black.png);
+    background-position: 40px 0;
+}
+
+.nextend-image-next-rounded-button-dark{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-dark.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-next-rounded-button-dark:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-dark.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-previous-rounded-button-dark{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-dark.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-previous-rounded-button-dark:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-dark.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-next-rounded-button-dark-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-dark-vertical.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-next-rounded-button-dark-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-dark-vertical.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-previous-rounded-button-dark-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-dark-vertical.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-previous-rounded-button-dark-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-dark-vertical.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-next-rounded-button-light{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-light.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-next-rounded-button-light:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-light.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-previous-rounded-button-light{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-light.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-previous-rounded-button-light:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-light.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-next-rounded-button-light-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-light-vertical.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-next-rounded-button-light-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/rounded-button-light-vertical.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-previous-rounded-button-light-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-light-vertical.png);
+    width: 28px;
+    height: 26px;
+}
+
+.nextend-image-previous-rounded-button-light-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/rounded-button-light-vertical.png);
+    background-position: 30px 0;
+}
+
+.nextend-image-next-half-circle-outer{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer.png);
+    width: 60px;
+    height: 120px;
+}
+
+.nextend-image-next-half-circle-outer:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/half-circle-outer.png);
+    background-position: 60px 0;
+}
+
+.nextend-image-previous-half-circle-outer{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer.png);
+    width: 60px;
+    height: 120px;
+}
+
+.nextend-image-previous-half-circle-outer:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/half-circle-outer.png);
+    background-position: 60px 0;
+}
+
+.nextend-image-next-mini-light{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/mini-light.png);
+    width: 11px;
+    height: 16px;;
+}
+
+.nextend-image-next-mini-light:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/mini-light.png);
+    background-position: 11px 0;
+}
+
+.nextend-image-previous-mini-light{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/mini-light.png);
+    width: 11px;
+    height: 16px;
+}
+
+.nextend-image-previous-mini-light:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/mini-light.png);
+    background-position: 11px 0;
+}
+
+.nextend-image-next-mini-dark{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/mini-dark.png);
+    width: 11px;
+    height: 16px;
+}
+
+.nextend-image-next-mini-dark:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/mini-dark.png);
+    background-position: 11px 0;
+}
+
+.nextend-image-previous-mini-dark{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/mini-dark.png);
+    width: 11px;
+    height: 16px;
+}
+
+.nextend-image-previous-mini-dark:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/mini-dark.png);
+    background-position: 11px 0;
+}
+
+
+.nextend-tab .nextend-image-next-circle,
+.nextend-tab .nextend-image-previous-circle,
+.nextend-tab .nextend-image-next-circle-vertical,
+.nextend-tab .nextend-image-previous-circle-vertical,
+.nextend-tab .nextend-image-next-circle-vertical-mini,
+.nextend-tab .nextend-image-previous-circle-vertical-mini,
+.nextend-tab .nextend-image-next-circle-mini,
+.nextend-tab .nextend-image-previous-circle-mini,
+.nextend-tab .nextend-image-next-simple-arrow,
+.nextend-tab .nextend-image-previous-simple-arrow{
+  background-color: #5e5e5e;
+}
+
+.nextend-image-next-circle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle.png);
+    width: 70px;
+    height: 64px;
+}
+
+.nextend-image-next-circle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle.png);
+    background-position: 70px 0;
+}
+
+.nextend-image-previous-circle{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle.png);
+    width: 70px;
+    height: 64px;
+}
+
+.nextend-image-previous-circle:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle.png);
+    background-position: 70px 0;
+}
+
+.nextend-image-next-circle-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-vertical.png);
+    width: 70px;
+    height: 64px;
+}
+
+.nextend-image-next-circle-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-vertical.png);
+    background-position: 70px 0;
+}
+
+.nextend-image-previous-circle-vertical{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-vertical.png);
+    width: 70px;
+    height: 64px;
+}
+
+.nextend-image-previous-circle-vertical:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-vertical.png);
+    background-position: 70px 0;
+}
+
+.nextend-image-next-circle-vertical-mini{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-vertical-mini.png);
+    width: 31px;
+    height: 31px;
+}
+
+.nextend-image-next-circle-vertical-mini:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-vertical-mini.png);
+    background-position: 31px 0;
+}
+
+.nextend-image-previous-circle-vertical-mini{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-vertical-mini.png);
+    width: 31px;
+    height: 31px;
+}
+
+.nextend-image-previous-circle-mini:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-mini.png);
+    background-position: 31px 0;
+}
+
+.nextend-image-next-circle-mini{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-mini.png);
+    width: 31px;
+    height: 31px;
+}
+
+.nextend-image-next-circle-mini:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/circle-mini.png);
+    background-position: 31px 0;
+}
+
+.nextend-image-previous-circle-mini{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-mini.png);
+    width: 31px;
+    height: 31px;
+}
+
+.nextend-image-previous-circle-mini:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/circle-mini.png);
+    background-position: 31px 0;
+}
+
+.nextend-image-next-simple-arrow{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-arrow.png);
+    width: 25px;
+    height: 42px;
+}
+
+.nextend-image-next-simple-arrow:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/next/simple-arrow.png);
+    background-position: 25px 0;
+}
+
+.nextend-image-previous-simple-arrow{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-arrow.png);
+    width: 25px;
+    height: 42px;
+}
+
+.nextend-image-previous-simple-arrow:HOVER{  
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetarrow/image/image/previous/simple-arrow.png);
+    background-position: 25px 0;
+}.nextend-autoplay-image {
+    cursor: pointer;
+    z-index: 11;
+    overflow: hidden;
+    position: relative;
+}
+
+.nextend-autoplay-cream {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/cream.png);
+    width: 40px;
+    height: 40px;
+    background-position: 0 40px;
+}
+
+.nextend-autoplay-cream.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-cream-button {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/cream-button.png);
+    width: 40px;
+    height: 40px;
+    background-position: 0 40px;
+}
+
+.nextend-autoplay-cream-button.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-dark-opacity {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/dark-opacity.png);
+    width: 40px;
+    height: 40px;
+    background-position: 0 40px;
+}
+
+.nextend-autoplay-dark-opacity.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-dark {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/dark.png);
+    width: 40px;
+    height: 40px;
+    background-position: 0 40px;
+}
+
+.nextend-autoplay-dark.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-dark-button {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/dark-button.png);
+    width: 26px;
+    height: 26px;
+    background-position: 0 26px;
+}
+
+.nextend-autoplay-dark-button.paused{
+    background-position: 0 0;
+}
+
+
+.nextend-autoplay-dark-button-opacity {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/dark-button-opacity.png);
+    width: 26px;
+    height: 26px;
+    background-position: 0 26px;
+}
+
+.nextend-autoplay-dark-button-opacity.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-cream-button-minii {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/cream-button-minii.png);
+    width: 26px;
+    height: 26px;
+    background-position: 0 26px;
+}
+
+.nextend-autoplay-cream-button-minii.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-simple {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/simple.png);
+    width: 26px;
+    height: 26px;
+    background-position: 0 26px;
+}
+
+.nextend-autoplay-simple.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-simple-light {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/simple-light.png);
+    width: 26px;
+    height: 26px;
+    background-position: 0 26px;
+}
+
+.nextend-autoplay-simple-light.paused{
+    background-position: 0 0;
+}
+
+.nextend-autoplay-mini-light {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/mini-light.png);
+    width: 11px;
+    height: 11px;
+    background-position: 0 11px;
+}
+
+.nextend-autoplay-mini-light.paused{
+    background-position: 0 0;
+}
+
+
+.nextend-autoplay-mini-dark {
+    background-image: url(//www.artgalaxie.com/boaventura.com.pt/plugins/nextendsliderwidgetautoplay/image/image/play/mini-dark.png);
+    width: 11px;
+    height: 11px;
+    background-position: 0 11px;
+}
+
+.nextend-autoplay-mini-dark.paused{
+    background-position: 0 0;
+}.nextend-bullet-container{
+    z-index: 10;
+    visibility: visible;
+    display: inline-block;
+}
+
+.nextend-bullet{
+    cursor: pointer;
+}
+
+.nextend-bullet.active{
+    cursor: default;
+}
+
+.nextend-bullet-vertical .nextend-bullet{
+    float: left;
+    clear: left;
+}
+
+.nextend-bullet .nextend-bullet-text.bullet-shadow-inner{
+    box-shadow:  0 1px 0 RGBA(255,255,255,.2), 0 1px 2px RGBA(0,0,0,.5) inset;
+}
+
+.nextend-bullet .nextend-bullet-text.bullet-shadow-outer{
+    box-shadow:  0 1px 1px RGBA(0,0,0,.3);
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant-rounded{
+    -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px; 
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple{
+    padding: 8px 10px;
+}
+
+.nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant{
+    padding: 6px 10px;
+    box-shadow: 0 0 0 1px RGBA(0,0,0,.5), 0 0 0 1px RGBA(255,255,255,.2) inset;
+}
+
+.nextend-bullet-text .nextend-bullet-text{
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    display: inline-block;
+    line-height: 14px !important;   
+    background: RGBA(0,0,0,0.6);
+    padding: 5px;
+}
+
+.nextend-bullet-text .nextend-bullet-text span{
+    font-size: 12px !important;
+    line-height: 14px !important;
+}
+
+.nextend-bullet-text .nextend-bullet-text.active,
+.nextend-bullet-text .nextend-bullet-text:HOVER{
+    background: #7670C7;
+}
+
+.nextend-element .nextend-bullet span{
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    line-height: 13px;
+    padding: 3px;
+}
+
+
+.nextend-bullet-container .nextend-bullet-text-title{
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 3px 8px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+
+
+
+/*!
+ * qTip2 - Pretty powerful tooltips - 
+ * http://qtip2.com
+ *
+ * Copyright (c) 2013 Craig Michael Thompson
+ * Released under the MIT, GPL licenses
+ * http://jquery.org/license
+ *
+ * Date: Thu May 9 2013 04:46 UTC+0000
+ * Plugins: svg ajax tips modal viewport imagemap ie6
+ * Styles: basic css3
+ */
+
+/* Core qTip styles */
+.qtip, .qtip{
+    position: absolute;
+    left: -28000px;
+    top: -28000px;
+    display: none;
+    max-width: 380px;
+    min-width: 50px;	
+    font-size: 12px;
+    line-height: 16px;
+    direction: ltr;	
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: normal;
+    color: white;  
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0 -1px 1px RGBA(0,0,0,0.6);
+}
+
+.qtip-content{
+    position: relative;
+    padding: 12px 20px;
+    overflow: hidden;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.qtip-titlebar{
+    position: relative;
+    padding: 5px 35px 5px 10px;
+    overflow: hidden;
+    border-width: 0 0 2px;
+}
+
+/* Default tooltip style */
+.qtip-default{
+    background-color: RGBA(51,56,58,0.95);
+}
+
+.qtip-default .qtip-titlebar{
+    background-color: #FFEF93;
+}
+
+.qtip-default .qtip-icon{
+    border-color: #CCC;
+    background: #F1F1F1;
+    color: #777;
+}
+
+.qtip-default .qtip-titlebar .qtip-close{
+    border-color: #AAA;
+    color: #111;
+}
+
+
+/* Add shadows to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+.qtip-shadow{
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Tips plugin */
+.qtip .qtip-tip{
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.qtip-tip canvas{
+    background: red;
+}
+
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml{
+    position: absolute;
+    color: #123456;
+    background: transparent;
+    border: 0 dashed transparent;
+}
+
+.qtip .qtip-tip canvas{ top: 0; left: 0; float:left; }
+
+.qtip .qtip-tip .qtip-vml{
+    behavior: url(#default#VML);
+    display: inline-block;
+    visibility: visible;
+}
+
+
+
+/* IE6 Modal plugin fix */
+.qtipmodal-ie6fix{
+    position: absolute !important;
+}.nextend-element .nextend-indicator-stripe-container{
+    width: 200px;
+    background: RGBA(0,0,0,.7);
+    height: 6px;
+}
+
+.nextend-element .nextend-indicator-stripe{
+    width: 40%;
+    background: #7670c7;
+    height: 6px;
+}/* Thursday 13th of July 2017 02:22:55 PM*/
+
+div#nextend-smart-slider-1 .smart-slider-animate-fade.smart-slider-animate-in {
+  z-index: 3;
+}
+div#nextend-smart-slider-1 .smart-slider-animate-fade.smart-slider-animate-out {
+  z-index: 2;
+}
+div#nextend-smart-slider-1 .smart-slider-animate-slide.smart-slider-animate-in {
+  z-index: 2;
+  opacity: 1;
+}
+div#nextend-smart-slider-1 .smart-slider-animate-slide.smart-slider-animate-out {
+  z-index: 3;
+  opacity: 1;
+}
+div#nextend-smart-slider-1 {
+  margin: 50px 70px 100px 70px;
+  position: relative;
+}
+div#nextend-smart-slider-1 * {
+  font-size: inherit;
+  line-height: inherit;
+}
+div#nextend-smart-slider-1 *,
+div#nextend-smart-slider-1 *:before,
+div#nextend-smart-slider-1 *:after {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+div#nextend-smart-slider-1.nextend-slider-fadeload {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+div#nextend-smart-slider-1.nextend-slider-fadeload.nextend-loaded {
+  opacity: 1;
+  position: relative;
+}
+div#nextend-smart-slider-1 a,
+div#nextend-smart-slider-1 a:focus {
+  outline: none !important;
+}
+div#nextend-smart-slider-1 h1,
+div#nextend-smart-slider-1 h2,
+div#nextend-smart-slider-1 h3,
+div#nextend-smart-slider-1 h4,
+div#nextend-smart-slider-1 h5,
+div#nextend-smart-slider-1 h6,
+div#nextend-smart-slider-1 p {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  width: auto;
+  border: 0;
+  box-shadow: none;
+}
+div#nextend-smart-slider-1 img {
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: transparent;
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas {
+  position: relative;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas,
+div#nextend-smart-slider-1 .smart-slider-layer {
+  overflow: hidden !important;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div#nextend-smart-slider-1 .sliderfont1 {
+  color: #ffffff;font-size:320%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont1 a,
+div#nextend-smart-slider-1 .sliderfont1 a:LINK,
+div#nextend-smart-slider-1 .sliderfont1 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont1 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont1 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont1 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont2 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:320%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont2 a,
+div#nextend-smart-slider-1 .sliderfont2 a:LINK,
+div#nextend-smart-slider-1 .sliderfont2 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont2 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont2 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont2 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont3 {
+  color: #ffffff;font-size:170%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont3 a,
+div#nextend-smart-slider-1 .sliderfont3 a:LINK,
+div#nextend-smart-slider-1 .sliderfont3 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont3 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont3 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont3 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont4 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont4 a,
+div#nextend-smart-slider-1 .sliderfont4 a:LINK,
+div#nextend-smart-slider-1 .sliderfont4 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont4 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont4 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont4 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont5 {
+  color: #ffffff;font-size:114%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont5 a,
+div#nextend-smart-slider-1 .sliderfont5 a:LINK,
+div#nextend-smart-slider-1 .sliderfont5 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont5 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont5 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont5 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont6 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:114%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont6 a,
+div#nextend-smart-slider-1 .sliderfont6 a:LINK,
+div#nextend-smart-slider-1 .sliderfont6 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont6 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont6 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont6 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont7 {
+  color: #ffffff;font-size:90%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont7 a,
+div#nextend-smart-slider-1 .sliderfont7 a:LINK,
+div#nextend-smart-slider-1 .sliderfont7 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont7 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont7 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont7 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont8 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:90%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont8 a,
+div#nextend-smart-slider-1 .sliderfont8 a:LINK,
+div#nextend-smart-slider-1 .sliderfont8 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont8 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont8 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont8 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont9 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont9 a,
+div#nextend-smart-slider-1 .sliderfont9 a:LINK,
+div#nextend-smart-slider-1 .sliderfont9 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont9 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont9 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont9 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont10 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:140%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont10 a,
+div#nextend-smart-slider-1 .sliderfont10 a:LINK,
+div#nextend-smart-slider-1 .sliderfont10 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont10 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont10 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont10 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont11 {
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont11 a,
+div#nextend-smart-slider-1 .sliderfont11 a:LINK,
+div#nextend-smart-slider-1 .sliderfont11 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont11 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont11 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont11 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont12 {
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont12 a,
+div#nextend-smart-slider-1 .sliderfont12 a:LINK,
+div#nextend-smart-slider-1 .sliderfont12 a:VISITED,
+div#nextend-smart-slider-1 .sliderfont12 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfont12 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfont12 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom1 {
+  color: #1abc9c;font-size:360%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom1 a,
+div#nextend-smart-slider-1 .sliderfontcustom1 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom1 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom1 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom1 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom1 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Pacifico',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom2 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom2 a,
+div#nextend-smart-slider-1 .sliderfontcustom2 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom2 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom2 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom2 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom2 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom3 {
+  color: #1abc9c;font-size:120%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom3 a,
+div#nextend-smart-slider-1 .sliderfontcustom3 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom3 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom3 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom3 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom3 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom4 {
+  color: #1abc9c;font-size:120%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom4 a,
+div#nextend-smart-slider-1 .sliderfontcustom4 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom4 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom4 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom4 a:ACTIVE {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom4 a:HOVER {
+  background: none;
+  color: #1abc9c;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom5 {
+  color: #ffffff;color: RGBA(255,255,255,0.79);font-size:145%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom5 a,
+div#nextend-smart-slider-1 .sliderfontcustom5 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom5 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom5 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom5 a:ACTIVE {
+  background: none;
+  color: #1ba5e7;color: RGBA(27,165,231,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom5 a:HOVER {
+  background: none;
+  color: #1ba5e7;color: RGBA(27,165,231,0.86);font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom6 {
+  color: #ffffff;color: RGBA(255,255,255,0.91);font-size:110%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.74);font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom6 a,
+div#nextend-smart-slider-1 .sliderfontcustom6 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom6 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom6 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom6 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.91);font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.74);font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom6 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.91);font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.74);font-family: 'Open Sans',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom7 {
+  color: #ffffff;font-size:140%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom7 a,
+div#nextend-smart-slider-1 .sliderfontcustom7 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom7 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom7 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom7 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom7 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom8 {
+  color: #75828e;font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom8 a,
+div#nextend-smart-slider-1 .sliderfontcustom8 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom8 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom8 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom8 a:ACTIVE {
+  background: none;
+  color: #75828e;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom8 a:HOVER {
+  background: none;
+  color: #75828e;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom9 {
+  color: #65727f;font-size:320%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom9 a,
+div#nextend-smart-slider-1 .sliderfontcustom9 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom9 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom9 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom9 a:ACTIVE {
+  background: none;
+  color: #65727f;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom9 a:HOVER {
+  background: none;
+  color: #65727f;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom10 {
+  color: #000000;color: RGBA(0,0,0,0.72);font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom10 a,
+div#nextend-smart-slider-1 .sliderfontcustom10 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom10 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom10 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom10 a:ACTIVE {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.72);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom10 a:HOVER {
+  background: none;
+  color: #000000;color: RGBA(0,0,0,0.72);font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Pacifico',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom11 {
+  color: #706d60;font-size:320%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom11 a,
+div#nextend-smart-slider-1 .sliderfontcustom11 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom11 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom11 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom11 a:ACTIVE {
+  background: none;
+  color: #706d60;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom11 a:HOVER {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom12 {
+  color: #827f71;font-size:114%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom12 a,
+div#nextend-smart-slider-1 .sliderfontcustom12 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom12 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom12 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom12 a:ACTIVE {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom12 a:HOVER {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom13 {
+  color: #65a6b8;font-size:170%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom13 a,
+div#nextend-smart-slider-1 .sliderfontcustom13 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom13 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom13 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom13 a:ACTIVE {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom13 a:HOVER {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom14 {
+  color: #ffffff;font-size:90%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.48);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom14 a,
+div#nextend-smart-slider-1 .sliderfontcustom14 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom14 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom14 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom14 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.48);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom14 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 0px RGBA(0,0,0,0.48);font-family: 'Lato',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom15 {
+  color: #ffffff;font-size:120%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Lato',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom15 a,
+div#nextend-smart-slider-1 .sliderfontcustom15 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom15 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom15 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom15 a:ACTIVE {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom15 a:HOVER {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(255,255,255,0.78);font-family: 'Lato',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom16 {
+  color: #ffffff;font-size:320%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom16 a,
+div#nextend-smart-slider-1 .sliderfontcustom16 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom16 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom16 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom16 a:ACTIVE {
+  background: none;
+  color: #706d60;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom16 a:HOVER {
+  background: none;
+  color: #65a6b8;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Lato',Arial;line-height: 1.3;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom17 {
+  color: #ffffff;font-size:160%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom17 a,
+div#nextend-smart-slider-1 .sliderfontcustom17 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom17 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom17 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom17 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom17 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom18 {
+  color: #ffffff;font-size:114%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom18 a,
+div#nextend-smart-slider-1 .sliderfontcustom18 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom18 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom18 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom18 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom18 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom19 {
+  color: #ffffff;font-size:114%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom19 a,
+div#nextend-smart-slider-1 .sliderfontcustom19 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom19 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom19 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom19 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom19 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.6;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom20 {
+  color: #ffffff;font-size:110%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.71);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom20 a,
+div#nextend-smart-slider-1 .sliderfontcustom20 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom20 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom20 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom20 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.71);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom20 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.71);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom21 {
+  color: #75b9cc;font-size:100%;text-shadow: none;font-family: 'Pacifico',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom21 a,
+div#nextend-smart-slider-1 .sliderfontcustom21 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom21 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom21 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom21 a:ACTIVE {
+  background: none;
+  color: #75b9cc;font-size:100%;text-shadow: none;font-family: 'Pacifico',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom21 a:HOVER {
+  background: none;
+  color: #75b9cc;font-size:100%;text-shadow: none;font-family: 'Pacifico',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom22 {
+  color: #7b726c;font-size:150%;text-shadow: none;font-family: 'Bevan',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom22 a,
+div#nextend-smart-slider-1 .sliderfontcustom22 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom22 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom22 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom22 a:ACTIVE {
+  background: none;
+  color: #7b726c;font-size:100%;text-shadow: none;font-family: 'Bevan',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom22 a:HOVER {
+  background: none;
+  color: #75b9cc;font-size:100%;text-shadow: none;font-family: 'Bevan',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom23 {
+  color: #878787;font-size:130%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom23 a,
+div#nextend-smart-slider-1 .sliderfontcustom23 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom23 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom23 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom23 a:ACTIVE {
+  background: none;
+  color: #878787;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom23 a:HOVER {
+  background: none;
+  color: #1b96d1;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom24 {
+  color: #a1a1a1;font-size:90%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom24 a,
+div#nextend-smart-slider-1 .sliderfontcustom24 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom24 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom24 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom24 a:ACTIVE {
+  background: none;
+  color: #a1a1a1;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom24 a:HOVER {
+  background: none;
+  color: #a1a1a1;font-size:100%;text-shadow: 0px 1px 0px RGBA(255,255,255,0.2);font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom25 {
+  color: #ffffff;color: RGBA(255,255,255,0.81);font-size:150%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom25 a,
+div#nextend-smart-slider-1 .sliderfontcustom25 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom25 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom25 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom25 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.81);font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom25 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom26 {
+  color: #ffffff;color: RGBA(255,255,255,0.77);font-size:110%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom26 a,
+div#nextend-smart-slider-1 .sliderfontcustom26 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom26 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom26 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom26 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.77);font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom26 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom27 {
+  color: #ffffff;font-size:130%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom27 a,
+div#nextend-smart-slider-1 .sliderfontcustom27 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom27 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom27 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom27 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom27 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom28 {
+  color: #ffffff;color: RGBA(255,255,255,0.8);font-size:110%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom28 a,
+div#nextend-smart-slider-1 .sliderfontcustom28 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom28 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom28 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom28 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.8);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom28 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.8);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom29 {
+  color: #ffffff;font-size:320%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom29 a,
+div#nextend-smart-slider-1 .sliderfontcustom29 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom29 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom29 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom29 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom29 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Oswald',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom30 {
+  color: #ffffff;font-size:90%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom30 a,
+div#nextend-smart-slider-1 .sliderfontcustom30 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom30 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom30 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom30 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom30 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom31 {
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:90%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom31 a,
+div#nextend-smart-slider-1 .sliderfontcustom31 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom31 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom31 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom31 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom31 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom32 {
+  color: #ffffff;font-size:110%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.9;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom32 a,
+div#nextend-smart-slider-1 .sliderfontcustom32 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom32 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom32 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom32 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.9;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom32 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.9;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom33 {
+  color: #3e3e3e;font-size:110%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom33 a,
+div#nextend-smart-slider-1 .sliderfontcustom33 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom33 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom33 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom33 a:ACTIVE {
+  background: none;
+  color: #188dd9;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom33 a:HOVER {
+  background: none;
+  color: #188dd9;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom34 {
+  color: #3e3e3e;font-size:110%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom34 a,
+div#nextend-smart-slider-1 .sliderfontcustom34 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom34 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom34 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom34 a:ACTIVE {
+  background: none;
+  color: #87b801;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom34 a:HOVER {
+  background: none;
+  color: #87b801;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom35 {
+  color: #3e3e3e;font-size:280%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom35 a,
+div#nextend-smart-slider-1 .sliderfontcustom35 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom35 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom35 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom35 a:ACTIVE {
+  background: none;
+  color: #87b801;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom35 a:HOVER {
+  background: none;
+  color: #7ca804;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom36 {
+  color: #3e3e3e;font-size:180%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: italic;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom36 a,
+div#nextend-smart-slider-1 .sliderfontcustom36 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom36 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom36 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom36 a:ACTIVE {
+  background: none;
+  color: #87b801;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom36 a:HOVER {
+  background: none;
+  color: #7ca804;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom37 {
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom37 a,
+div#nextend-smart-slider-1 .sliderfontcustom37 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom37 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom37 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom37 a:ACTIVE {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom37 a:HOVER {
+  background: none;
+  color: #ffffff;color: RGBA(255,255,255,0.84);font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom38 {
+  color: #ffffff;font-size:190%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom38 a,
+div#nextend-smart-slider-1 .sliderfontcustom38 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom38 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom38 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom38 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom38 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: 0px 1px 1px RGBA(0,0,0,0.78);font-family: 'Montserrat',Arial;line-height: 1.5;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom39 {
+  color: #3e3e3e;font-size:280%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom39 a,
+div#nextend-smart-slider-1 .sliderfontcustom39 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom39 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom39 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom39 a:ACTIVE {
+  background: none;
+  color: #823fcd;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom39 a:HOVER {
+  background: none;
+  color: #7135b5;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.2;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom40 {
+  color: #3e3e3e;font-size:110%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom40 a,
+div#nextend-smart-slider-1 .sliderfontcustom40 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom40 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom40 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom40 a:ACTIVE {
+  background: none;
+  color: #823fcd;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom40 a:HOVER {
+  background: none;
+  color: #823fcd;font-size:100%;text-shadow: none;font-family: 'Pt Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom41 {
+  color: #435664;font-size:240%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom41 a,
+div#nextend-smart-slider-1 .sliderfontcustom41 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom41 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom41 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom41 a:ACTIVE {
+  background: none;
+  color: #435664;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom41 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom42 {
+  color: #607280;font-size:130%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom42 a,
+div#nextend-smart-slider-1 .sliderfontcustom42 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom42 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom42 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom42 a:ACTIVE {
+  background: none;
+  color: #607280;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom42 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom43 {
+  color: #8f959d;color: RGBA(143,149,157,0.91);font-size:110%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom43 a,
+div#nextend-smart-slider-1 .sliderfontcustom43 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom43 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom43 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom43 a:ACTIVE {
+  background: none;
+  color: #8f959d;color: RGBA(143,149,157,0.91);font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom43 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Open Sans',Arial;line-height: 1.4;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom44 {
+  color: #8e44ad;font-size:240%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom44 a,
+div#nextend-smart-slider-1 .sliderfontcustom44 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom44 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom44 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom44 a:ACTIVE {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom44 a:HOVER {
+  background: none;
+  color: #7f3c9c;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.2;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom45 {
+  color: #8f959d;font-size:110%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom45 a,
+div#nextend-smart-slider-1 .sliderfontcustom45 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom45 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom45 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom45 a:ACTIVE {
+  background: none;
+  color: #8f959d;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom45 a:HOVER {
+  background: none;
+  color: #8e44ad;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1;font-weight: normal;font-style: normal;text-decoration: none;text-align: right;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom46 {
+  color: #e3edf4;font-size:110%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom46 a,
+div#nextend-smart-slider-1 .sliderfontcustom46 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom46 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom46 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom46 a:ACTIVE {
+  background: none;
+  color: #e3edf4;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom46 a:HOVER {
+  background: none;
+  color: #0486b8;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.4;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom47 {
+  color: #bac6cf;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom47 a,
+div#nextend-smart-slider-1 .sliderfontcustom47 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom47 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom47 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom47 a:ACTIVE {
+  background: none;
+  color: #bac6cf;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom47 a:HOVER {
+  background: none;
+  color: #0486b8;font-size:100%;text-shadow: none;font-family: 'Montserrat',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom48 {
+  color: #474747;font-size:470%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom48 a,
+div#nextend-smart-slider-1 .sliderfontcustom48 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom48 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom48 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom48 a:ACTIVE {
+  background: none;
+  color: #474747;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom48 a:HOVER {
+  background: none;
+  color: #474747;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.1;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom49 {
+  color: #474747;font-size:220%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom49 a,
+div#nextend-smart-slider-1 .sliderfontcustom49 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom49 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom49 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom49 a:ACTIVE {
+  background: none;
+  color: #474747;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom49 a:HOVER {
+  background: none;
+  color: #474747;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.3;font-weight: bold;font-style: normal;text-decoration: none;text-align: left;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom50 {
+  color: #8a8a8a;font-size:150%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom50 a,
+div#nextend-smart-slider-1 .sliderfontcustom50 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom50 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom50 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom50 a:ACTIVE {
+  background: none;
+  color: #8a8a8a;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom50 a:HOVER {
+  background: none;
+  color: #8a8a8a;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom51 {
+  color: #ffffff;font-size:150%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom51 a,
+div#nextend-smart-slider-1 .sliderfontcustom51 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom51 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom51 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom51 a:ACTIVE {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom51 a:HOVER {
+  background: none;
+  color: #ffffff;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: justify;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom52 {
+  color: #8a8a8a;font-size:150%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom52 a,
+div#nextend-smart-slider-1 .sliderfontcustom52 a:LINK,
+div#nextend-smart-slider-1 .sliderfontcustom52 a:VISITED,
+div#nextend-smart-slider-1 .sliderfontcustom52 a:FOCUS,
+div#nextend-smart-slider-1 .sliderfontcustom52 a:ACTIVE {
+  background: none;
+  color: #8a8a8a;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .sliderfontcustom52 a:HOVER {
+  background: none;
+  color: #8a8a8a;font-size:100%;text-shadow: none;font-family: 'Oxygen',Arial;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;-moz-transition: padding-left 0.4s ease;-webkit-transition: padding-left 0.4s ease;-o-transition: padding-left 0.4s ease;transition: padding-left 0.4s ease;padding-left: 0px;
+}
+div#nextend-smart-slider-1 .nextend-widget {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1;
+}
+div#nextend-smart-slider-1.nextend-desktop .nextend-widget-display-desktop,
+div#nextend-smart-slider-1.nextend-tablet .nextend-widget-display-tablet,
+div#nextend-smart-slider-1.nextend-phone .nextend-widget-display-phone {
+  display: block;
+}
+div#nextend-smart-slider-1 .nextend-widget-always {
+  -webkit-transform: translate3d(0,0,0);
+}
+div#nextend-smart-slider-1 .nextend-widget-hover {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease;
+  -moz-transition: opacity 0.4s ease;
+  -o-transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease;
+}
+div#nextend-smart-slider-1.nextend-widget-hover-show .nextend-widget-hover {
+  opacity: 1;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas .nextend-slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: none !important;
+  height: auto;
+  background: rgba(0,0,0,0.002);
+}
+div#nextend-smart-slider-1 {
+  width: 980px;
+  height: 450px;
+  float: left;
+}
+.x-rtl div#nextend-smart-slider-1 {
+  float: right;
+}
+div#nextend-smart-slider-1 .smart-slider-border1 {
+  position: relative;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 450px;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #ffffff;
+  border-color: RGBA(255,255,255,1);
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: auto;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+div#nextend-smart-slider-1 .smart-slider-border2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+.x-firefox div#nextend-smart-slider-1 .smart-slider-border2 {
+  opacity: 0.99999;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 450px;
+  z-index: 2;
+  display: block;
+  -webkit-backface-visibility: hidden;
+}
+div#nextend-smart-slider-1 .smart-slider-canvas-inner {
+  position: relative;
+  width: 980px;
+  height: 450px;
+}
+div#nextend-smart-slider-1 .smart-slider-slide-active {
+  z-index: 3;
+}
+div#nextend-smart-slider-1 .smart-slider-layer {
+  position: absolute;
+}
+div#nextend-smart-slider-1 .nextend-flux {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+div#nextend-smart-slider-1 .nextend-flux img {
+  max-width: none !important;
+  opacity: 0.999;
+}
+div#nextend-smart-slider-1 .current {
+  border: 0;
+  padding: 0;
+}
+#nextend-smart-slider-1 .nextend-bar-g {
+  width: 100%;
+  height: 30px;
+  z-index: 9;
+  overflow: hidden;
+}
+#nextend-smart-slider-1 .nextend-bar-g .nextend-bar-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#nextend-smart-slider-1 .nextend-bar-g .nextend-bar-slide.active {
+  display: block;
+}
+#nextend-smart-slider-1 .nextend-bar-g .nextend-bar-slide h6 {
+  float: left;
+  margin: 0px 3px 0 10px;
+}
+#nextend-smart-slider-1 .nextend-bar-g .nextend-bar-slide p {
+  float: left;
+  margin: 0;
+}
+#nextend-smart-slider-1 .nextend-bar-g.nextend-bar-g-cream {
+  background: #E2E0D7;
+  background: -ms-linear-gradient(top,#FFFFFF 0%,#E2E0D7 100%);
+  background: -moz-linear-gradient(top,#FFFFFF 0%,#E2E0D7 100%);
+  background: -o-linear-gradient(top,#FFFFFF 0%,#E2E0D7 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#FFFFFF),color-stop(1,#E2E0D7));
+  background: -webkit-linear-gradient(top,#FFFFFF 0%,#E2E0D7 100%);
+  background: linear-gradient(to bottom,#FFFFFF 0%,#E2E0D7 100%);
+  box-shadow: 0 0 0 1px #CCCCCC inset;
+}
+#nextend-smart-slider-1 .nextend-bar-g.nextend-bar-g-dark {
+  background: #242424;
+  background: -ms-linear-gradient(top,#3E3E3E 0%,#242424 100%);
+  background: -moz-linear-gradient(top,#3E3E3E 0%,#242424 100%);
+  background: -o-linear-gradient(top,#3E3E3E 0%,#242424 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#3E3E3E),color-stop(1,#242424));
+  background: -webkit-linear-gradient(top,#3E3E3E 0%,#242424 100%);
+  background: linear-gradient(to bottom,#3E3E3E 0%,#242424 100%);
+  box-shadow: 0 0 0 2px rgba(255,255,255,0.1) inset;
+}
+#nextend-smart-slider-1 .nextend-bar-g.nextend-bar-g-dark .inner {
+  border: 1px solid #1F1F1F;
+  width: auto;
+}
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g {
+  width: 300px;
+}
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g.nextend-bar-g-cream h6,
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g.nextend-bar-g-dark h6 {
+  padding: 8px 5px 8px 10px;
+}
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g-cream h6,
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g-cream p {
+  padding: 9px 5px;
+  margin: 0;
+  float: left;
+  font-size: 12px;
+}
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g-dark h6,
+#nextend-smart-slider-1 .nextend-element .nextend-bar-g-dark p {
+  padding: 9px 5px;
+  margin: 0;
+  float: left;
+  font-size: 12px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.7);
+  color: white;
+}
+
+                #nextend-smart-slider-1 .nextend-bullet-container .nextend-bullet-text.nextend-bullet{                
+                  background:RGBA(0,0,0,0.38);
+                }
+                #nextend-smart-slider-1 .nextend-bullet-container .nextend-bullet-text.nextend-bullet.active,
+                #nextend-smart-slider-1 .nextend-bullet-container .nextend-bullet-text.nextend-bullet:HOVER{
+                  background:RGBA(115,48,148,0.91);
+                }
+                #nextend-smart-slider-1 .nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple-rounded,              
+                #nextend-smart-slider-1 .nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant-rounded,
+                #nextend-smart-slider-1 .nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-simple,              
+                #nextend-smart-slider-1 .nextend-bullet-container.nextend-bullet.nextend-bullet-text.bullet-bar-elegant{              
+                  background:RGBA(0,0,0,0.38);
+                }
+                #nextend-smart-slider-1 .nextend-bullet-text-thumbnail .qtip-content{
+                  width:100px;                
+                  height:50px;
+                  padding: 4px;
+                }         
+                #nextend-smart-slider-1 .nextend-bullet-text-thumbnail .qtip-content img{
+                  box-shadow: 0 0px 0px 1px RGBA(255,255,255,.2);
+                }
+                #nextend-smart-slider-1 .nextend-bullet-text-thumbnail{
+                  background: RGBA(0,0,0,0.38);
+                }div#nextend-smart-slider-1.nextend-slider-fadeload{position: absolute; opacity: 0;}

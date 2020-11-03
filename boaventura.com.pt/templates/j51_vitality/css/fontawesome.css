@@ -1,0 +1,114 @@
+[class^="fa-"]:before,
+[class*=" fa-"]:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+  color: rgba(50, 50, 50, 0.4);
+}
+/* Disable hover.css animations */
+[class^="fa-"][class*=" hvr-"]:before,
+[class^="hvr-"][class*=" fa-"]:before {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  border: none;
+  left: 0;
+  top: 0;
+  right: auto !important;
+  bottom: auto !important;
+}
+/* Joomla Menus */
+.menu li [class^="fa-"]:before,
+.menu li [class*=" fa-"]:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.menu li [class^="fa-"]:before,
+.menu li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+}
+.menu li a[class^="fa-"],
+.menu li a[class*=" fa-"] {
+  position: relative;
+  padding-left: 37px !important;
+}
+.menu li a:hover[class^="fa-"]:before,
+.menu li a:hover[class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.1);
+}
+/* Top Menu Icons */
+.hornav .menu li [class^="fa-"]:before,
+.hornav .menu li [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.3);
+  top: 20px;
+}
+.hornav .menu li [class^="fa-"]:hover:before,
+.hornav .menu li [class*=" fa-"]:hover:before {
+  color: rgba(255, 255, 255, 0.5);
+  top: 20px;
+}
+.hornav .menu li li [class^="fa-"]:before,
+.hornav .menu li li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  top: 7px;
+}
+.hornav .menu li li [class^="fa-"]:hover:before,
+.hornav .menu li li [class*=" fa-"]:hover:before {
+  color: rgba(0, 0, 0, 0.5);
+  top: 7px;
+}
+/* Header-# Menu Icons */
+.header-1 .menu li [class^="fa-"]:before,
+.header-1 .menu li [class*=" fa-"]:before,
+.header-2 .menu li [class^="fa-"]:before,
+.header-2 .menu li [class*=" fa-"]:before {
+  color: rgba(0, 0, 0, 0.2);
+  top: 1px;
+}
+/* Base Module */
+#container_base [class^="fa-"]:before,
+#container_base [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.2);
+  top: 1px;
+}
+/* Footer Menu Icons */
+#footermenu .menu li [class^="fa-"]:before,
+#footermenu.menu li [class*=" fa-"]:before {
+  color: rgba(255, 255, 255, 0.2);
+  top: 6px;
+}
+.row.fa-icon-list {
+  margin: 0 0 30px;
+}
+.fa-col5 {
+  float: left;
+  padding: 0 0 10px;
+  width: 20%;
+}
+a.slicknav_item [class^="fa-"]:before,
+a.slicknav_item [class*=" fa-"]:before,
+.slicknav_menu .menu li [class^="fa-"]:before,
+.slicknav_menu .menu li [class*=" fa-"]:before {
+  display: none !important;
+}
+.slicknav_nav ul > li a[class^="fa-"],
+.slicknav_nav ul > li a[class*=" fa-"] {
+  padding-left: 14px !important;
+}
+.menu a.slicknav_item [class^="fa-"],
+.menu a.slicknav_item [class*=" fa-"] {
+  padding-left: 0 !important;
+}

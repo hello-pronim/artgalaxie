@@ -1,0 +1,735 @@
+
+body {
+    background: #0a0a0a none repeat scroll 0 0; padding: 0; font-family: Arial,Helvetica Neue,Helvetica,sans-serif;;
+
+}
+img{ max-width:100%;}
+.form-control:focus{ box-shadow:none; border:none; outline:none;}
+.top {
+    padding: 30px;
+}
+.lang-bar button {
+    background: #e1e1e1 none repeat scroll 0 0;
+    border-radius: 2px; width:100%; margin-top:10px; padding:3px 12px;
+}
+
+.lang-bar {
+    margin-left: 48px;
+    position: relative;
+}
+
+.aror-btn {
+    background: #3997b0 none repeat scroll 0 0;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    color: #fff;
+    float: right;
+    margin: -4px -14px -4px 10px;
+    padding: 3px;
+    width: 40px;
+}
+.lang-sm.lang-lbl-full {
+    float: left;
+}
+.lang-bar button.btn-default {
+    color: #9a9a9a;
+}
+.aror-btn i {
+    color: #fff;
+    display: block;
+    font-size: 21px;
+    font-weight: 900;
+    margin: -6px;
+}
+.log-box .dropdown-menu {
+    left: auto !important;
+    padding: 10px;
+    right: 0 !important;
+    width: 220px;
+}
+.log-box li {
+    list-style: outside none none;
+}
+.inline {
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
+}
+.log-box .dropdown-toggle {
+    background: #3997b0 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 12px;
+}
+.log-box .dropdown-toggle i {
+    color: #000;
+    font-size: 21px;
+    font-weight: 900;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.down-arow {
+    background: rgba(0, 0, 0, 0) url("../images/btn-shadow.png") no-repeat scroll left top;
+    display: block;
+    float: right;
+    height: 33px;
+    margin-bottom: -20px;
+    margin-right: -15px;
+    margin-top: -6px !important;
+    padding: 0 0 0 10px;
+    width: 40px;
+}
+.log-box.inline ul.drop-box {
+    margin: 0;
+    padding: 0;
+}
+.top-menus{ background:rgba(0, 0, 0, 0) url("../images/top-menu-bg.png") no-repeat scroll center center; padding:0 7px;}
+.top-menus a{ color:#fff; margin:0px 10px; display:inline-block; font-size:18px;}
+.top-menus a:hover{color:#5dcbee; text-decoration:none;}
+#imaginary_container {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.stylish-input-group .input-group-addon {
+    background: #464646 none repeat scroll 0 0 !important;
+    border: medium none;
+    color: #999;
+}
+.stylish-input-group .form-control {
+    background: #474747 none repeat scroll 0 0 !important;
+    border: medium none;
+    color: #fff;
+}
+.stylish-input-group button {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+}
+.navbar-inverse .main-menu ul li a {
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.navbar-inverse .main-menu ul li {
+    display: inline-block;
+    float: none;
+    padding: 0 40px;
+}
+.navbar-inverse .main-menu ul li a span {
+    font-size: 26px;
+}
+.navbar-inverse .main-menu ul li:hover{ }
+.navbar-inverse .main-menu ul li:hover a {
+    color: #fff; border-color:#666; 
+}
+.navbar-inverse .main-menu ul li:first-child {
+    padding-left: 0;
+}
+.navbar-inverse .main-menu ul li:last-child {
+    padding-right: 0;
+}
+.main-menu {
+    padding: 0;
+}
+
+.navbar-inverse{ background:none;}
+.navbar-inverse .main-menu ul li.menu-style1 a {border-color:#6c1416;}
+.navbar-inverse .main-menu ul li.menu-style2 a {border-color:#784420;}
+.navbar-inverse .main-menu ul li.menu-style3 a {border-color:#796126;}
+.navbar-inverse .main-menu ul li.menu-style4 a {border-color:#536530;}
+.navbar-inverse .main-menu ul li.menu-style5 a {border-color:#3c7282;}
+.navbar-inverse .main-menu ul li.menu-style6 a {border-color:#6a1f1f;}
+.navbar-inverse .main-menu ul li.menu-style7 a {border-color:#423961;}
+.navbar-inverse .main-menu ul li.menu-style8 a {border-color:#4d2960;}
+
+.navbar-inverse .main-menu ul li a div{ text-align:center; margin-bottom:5px;}
+.navbar-inverse .main-menu ul li a span{ height:30px; display:inline-block; width:30px; background:url(../images/menus-icon-sprit.png) no-repeat;}
+.navbar-inverse .main-menu ul li.menu-style1 a span{background-position:0 0;}
+.navbar-inverse .main-menu ul li.menu-style2 a span{background-position:-30px 0;}
+.navbar-inverse .main-menu ul li.menu-style3 a span{background-position:-60px 0;}
+.navbar-inverse .main-menu ul li.menu-style4 a span{background-position:-90px 0;}
+.navbar-inverse .main-menu ul li.menu-style5 a span{background-position:-120px 0;}
+.navbar-inverse .main-menu ul li.menu-style6 a span{background-position:-150px 0;}
+.navbar-inverse .main-menu ul li.menu-style7 a span{background-position:-180px 0;}
+.navbar-inverse .main-menu ul li.menu-style8 a span{background-position:-210px 0;}
+
+.navbar-inverse .main-menu ul li.menu-style1:hover a span{background-position:0 -30px;}
+.navbar-inverse .main-menu ul li.menu-style2:hover a span{background-position:-30px -30px;}
+.navbar-inverse .main-menu ul li.menu-style3:hover a span{background-position:-60px -30px;}
+.navbar-inverse .main-menu ul li.menu-style4:hover a span{background-position:-90px -30px;}
+.navbar-inverse .main-menu ul li.menu-style5:hover a span{background-position:-120px -30px;}
+.navbar-inverse .main-menu ul li.menu-style6:hover a span{background-position:-150px -30px;}
+.navbar-inverse .main-menu ul li.menu-style7:hover a span{background-position:-180px -30px;}
+.navbar-inverse .main-menu ul li.menu-style8:hover a span{background-position:-210px -30px;}
+
+
+.navbar-inverse .main-menu ul li:hover a {border-color:#fff;}
+
+
+.banner{ background:url(../images/banner.jpg) no-repeat top center; max-height:600px; background-attachment:fixed; background-size:cover;}
+.banner img{ width:100%; max-width:100%; opacity:0;}
+.top-slider .carousel img{width:100%; max-width:100%; }
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+
+.section { padding:40px 0;}
+.section-header {
+    color: #000;
+    font-size: 24px;
+    padding: 0 0 15px; font-weight:normal; font-family:Verdana;
+}
+.cat-section .section-header{ color:#fff;}
+
+.cat-section .cat-box{ position:relative; margin-bottom:15px; cursor:pointer; }
+.cat-section .cat-box div.cat-img{ width:150px; height:151px; display:inline-block;  background-size:cover !important; }
+.cat-section .cat-box .cat-box-in1 div.cat-img{ background:url(../images/Painting.png) no-repeat top center;}
+.cat-section .cat-box .cat-box-in2 div.cat-img{ background:url(../images/Sculpture.png) no-repeat top center;}
+.cat-section .cat-box .cat-box-in3 div.cat-img{ background:url(../images/Drawing.png) no-repeat top center;}
+.cat-section .cat-box .cat-box-in4 div.cat-img{ background:url(../images/Digital-Art.png) no-repeat top center;}
+
+.cat-section .cat-box:hover div.cat-img{ background-position:0 -151px !important;}
+
+.cat-section .cat-box .cat-box-in1 .cat-title{ color:#a70d27}
+.cat-section .cat-box .cat-box-in2 .cat-title{ color:#cb7129}
+.cat-section .cat-box .cat-box-in3 .cat-title{ color:#79a204}
+.cat-section .cat-box .cat-box-in4 .cat-title{ color:#0ab2a0}
+
+.cat-section .cat-box:hover .cat-title{ color:#fff;}
+
+
+
+
+.cat-section .cat-box .cat-title{ font-size:24px;}
+.cat-section .cat-icon1 div{ background:#680718; color:#680718;}
+.cat-section .cat-icon2 div{ background:#8c4d1a; color:#8c4d1a;}
+.cat-section .cat-icon3 div{ background:#506b04; color:#506b04;}
+.cat-section .cat-icon4 div{ background:#08786c; color:#08786c;}
+
+.cat-section .cat-box .over-div {
+    background-color: #ff002d;
+    height: 100%;
+    left: 0;
+    mix-blend-mode: overlay;
+    position: absolute;
+    top: 0;
+    visibility: hidden ;
+    width: 100%;
+    z-index: 1;
+}
+
+.cat-section .cat-icon2 .over-div{ background:#ff7200; }
+.cat-section .cat-icon3 .over-div{ background:#bcff00; }
+.cat-section .cat-icon4 .over-div{ background:#00c8b3;}
+
+.cat-section .cat-icon div.cat-title{ background:none; padding:15px;}
+.cat-section .cat-icon1 .cat-title{color:#680718;}
+.cat-section .cat-icon2 .cat-title{color:#8c4d1a;}
+.cat-section .cat-icon3 .cat-title{color:#506b04;}
+.cat-section .cat-icon4 .cat-title{color:#08786c;}
+
+
+
+.cat-section .cat-box:hover .over-div{ visibility:visible; cursor:pointer;}
+
+.slider1-section{ background:#fff; padding-bottom:0; overflow:hidden;}
+.slider1-section .text{ font-size:18px;  padding-top:30px;}
+ #carousel {
+        width:100%;
+        height:400px;
+        position:relative;
+        clear:both;
+        overflow:hidden; margin-top:50px;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+		opacity:1 !important; top:auto !important; bottom:0 !important;
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+	  
+	  
+.carousel-section {
+    position: relative;
+}
+.slider-arrow {
+    position: absolute;
+    top: 40%;
+    width: 100%; z-index:10;
+}
+.slider-arrow #next {
+    float: right;
+}
+.slider-arrow a:hover{opacity:0.5;}
+.slider-shadow{ background:url(../images/slider-shadow.png) no-repeat center bottom; height: 44px;
+    margin-top: -68px;
+    position: relative;
+    z-index: 8; margin-bottom:-1px;}
+	
+	.who-we-are-section{ background:#7cb1c3; color:#fff;}
+	.who-we-are-section .section-header{ color:#0b5c71; }
+	.who-we-are-section .mid-tag-line{ color:#0b5c71; margin:50px 0; font-weight:600;}
+	.who-we-are-section .text{ font-size:18px;}
+  
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+
+.sevice-box {
+    color: #fff;
+}
+.sevice-box .serv-title {
+    font-size: 17px;
+    padding: 15px 20px 10px; text-transform:uppercase;
+}
+
+.sevice-box .serv-text{ font-size:12px; padding:0px 0 20px; line-height:18px; color:#999;}
+.services-section .section-header{ color:#fff; }
+.sevice-box .icon-box {
+     width:150px; height:150px; display:inline-block;  background-size:cover !important;
+}
+.sevice-box1 .icon-box{background:url(../images/Publications.png) no-repeat top center;}
+.sevice-box2 .icon-box{background:url(../images/Websites.png) no-repeat top center;}
+.sevice-box3 .icon-box{background:url(../images/Art-Marketing.png) no-repeat top center;}
+.sevice-box4 .icon-box{background:url(../images/Video.png) no-repeat top center;}
+.sevice-box5 .icon-box{background:url(../images/Exhibitions.png) no-repeat top center;}
+
+.sevice-box:hover{ cursor:pointer;}
+.sevice-box:hover .icon-box{ background-position:0 -150px !important;}
+
+
+
+
+.sevice-box1 .serv-title{color:#63ccec;}
+.sevice-box2 .serv-title{color:#b953fc;}
+.sevice-box3 .serv-title{color:#9c65f8;}
+.sevice-box4 .serv-title{color:#b52121;}
+.sevice-box5 .serv-title{color:#dcab33;}
+.sevice-box:hover .serv-title{ color:#fff;}
+
+
+.slider2-section{ background:#fff; padding:50px 0px;}
+.featured-section{background:#fff;}
+.artist-name{ font-size:26px; font-weight:600; color:#587a21; padding:15px 0 ;}
+.featured-section .section-header{ padding:0;}
+.atist-txt h4{ font-size:20px; font-weight:600; color:#6c6b6b; font-family:Verdana; margin-top:0; }
+.atist-txt{ margin-bottom:30px;}
+
+.artist-pic img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.featured-section .col-sm-2.col-sm-push-5 {
+    padding: 0;
+}
+.slider2-section .flexslider .slides img{ width:auto; max-width:100%; margin:0 auto;}
+
+.flex-direction-nav li a.flex-prev {
+    background: url(../images/slider-arow1.png) no-repeat scroll 0 0;
+    left:-20px !important; opacity:1 !important; text-indent:-999px; cursor:pointer;
+}
+.flex-direction-nav li a.flex-next {
+    background: url(../images/slider-arow2.png) no-repeat scroll 0 0;
+    right: -20px !important; opacity:1 !important; text-indent:-999px; cursor:pointer;
+}
+.flex-control-nav.flex-control-paging{ display:none !important;}
+
+.slider2-section .section-header{ color:#000; margin-bottom:40px; }
+.our-mission-section{ background:#587b21; color:#fff;}
+.our-mission-section .section-header{color:#eac843; margin-bottom:00px;}
+.our-mission-section .text{ line-height:26px; font-size:18px;}
+.our-mission-section .text p{ margin-bottom:20px;}
+
+.slider3-section{ background:#fff; color:#000;}
+.slider3-section .section-header{color:#c99933;}
+.slider3-section .fill{ margin:0 100px; color:#4e4e4e; font-size:20px; line-height:normal;}
+.slider3-section .fill h3{ margin-top:0; color:#4e4e4e; font-size:36px;}
+.carousel-control{ width:auto; left:10px;}
+.carousel-control.right{ right:10px;}
+.carousel-control.left, .carousel-control.right{ background:none;}
+.carousel-control .icon-prev::before, .carousel-control .icon-next::before{ content:"";}
+
+.art-section{ background:#cc9c2e; color:#fff;}
+.art-section .section-header{color:#366c5f; padding:0;}
+.two-icons{ display:inline-block; color:#42424c; font-size:18px; margin:0 20px;}
+.two-icons span{ display:block;}
+.two-icons a{ width:100px; height:100px; display:inline-block; background-size:cover !important;}
+.two-icons a.icon1{ background:url(../images/Affiliate-programe.png) no-repeat top center; color:#08b3a0;}
+.two-icons a.icon2{ background:url(../images/Unicef.png) no-repeat top center; color:#73c04c;}
+
+.two-icons:hover a{ background-position:0 -100px !important; }
+.two-icons:hover span{ color:#fff !important;}
+
+
+.two-icons .icon-bx {background: #e7ce98 ; display: inline-block; font-size: 40px; width:100px; padding: 20px 25px; border:solid 2px #fff; color:#fff;}
+.two-icons a:hover{color:#ffae00; text-decoration:none;}
+.two-icons a:hover .icon-bx{ background:#ffae00; border-color:#e7ce98;}
+
+
+.slider4-section{ background:#efefef;}
+.slider4-section .section-header{ color:#4d4d4d;}
+.art-section .text{ line-height:23px; font-size:16px;}
+.art-section .text p{ margin-bottom:20px;}
+
+
+.blog-box {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #999;
+    margin: 15px;
+    padding: 15px; color:#525252;
+}
+.blog-title {
+    font-size: 18px;
+    padding: 10px 0; color:#5f9ae5;
+}
+.blog-disc {
+    font-size: 13px; line-height:16px;
+}
+.blog-links {
+    font-size: 11px;
+    padding: 15px 0 0; color:#5f9ae5; font-style:italic; overflow:hidden;
+}
+.blog-links a{color:#5f9ae5;}
+
+
+
+.gray-section{ background:#2c2c2c;}
+.gray-section .four-box{ margin:50px 0;}
+.gray-section .four-box a{ color:#fff;}
+.gray-section .four-box .box-icon{ text-align:center;}
+.gray-section .four-box .box-icon span{ width:150px; height:150px; display:inline-block; background-size:cover !important;}
+.gray-section .four-box .box-link{ font-size:26px; padding:5px;}
+.gray-section .four-box .bot-box1 span{ background:url(../images/Guestbook.png) no-repeat top center; }
+.gray-section .four-box .bot-box2 span{ background:url(../images/Testimonials.png) no-repeat top center; }
+.gray-section .four-box .bot-box3 span{ background:url(../images/Newsletter.png) no-repeat top center; }
+.gray-section .four-box .bot-box4 span{ background:url(../images/Contact-us.png) no-repeat top center; }
+
+.gray-section .four-box .bot-box1 a{ color:#74c04e}
+.gray-section .four-box .bot-box2 a{ color:#47c3d3}
+.gray-section .four-box .bot-box3 a{ color:#39b1e5}
+.gray-section .four-box .bot-box4 a{ color:#be9bc9}
+
+.gray-section .four-box .box-in:hover a{ color:#fff; text-decoration:none;}
+.gray-section .four-box .box-icon:hover span{ background-position:0 -151px !important;}
+
+
+footer{ margin:15px 0px;}
+.footer-section{ color:#fff;}
+.social-links{ padding:15px 0px 15px 0;}
+.social-links li{ margin:0 10px;}
+.social-links li a:hover{opacity:0.5;}
+.foot-text{ margin:30px 0; font-size:18px;}
+.foot-last-tx{ font-size:15px;}
+
+.col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+	
+	
+.footer-section .list-inline {
+    margin: 20px 0 10px;
+    padding: 0;
+}
+
+
+/*innerpage*/
+.ptn { padding-top:0;}
+.middle-menu-section-bg {background:#FFF; }
+.middle-menu-section { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d0d0d+0,2c2c2c+40,2c2c2c+60,0d0d0d+100 */
+background: #0d0d0d; /* Old browsers */
+background: -moz-linear-gradient(left, #0d0d0d 0%, #2c2c2c 40%, #2c2c2c 60%, #0d0d0d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #0d0d0d 0%,#2c2c2c 40%,#2c2c2c 60%,#0d0d0d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #0d0d0d 0%,#2c2c2c 40%,#2c2c2c 60%,#0d0d0d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d0d', endColorstr='#0d0d0d',GradientType=1 ); /* IE6-9 */
+box-shadow:0 5px 6px #787878;
+padding:25px 0px 15px; }
+.middle-menu ul { margin:0px; padding:0px;}
+.middle-menu ul li { list-style:none; display:inline-block;}
+.middle-menu ul li a { font-size:20px; padding:17px 0px; display:block; text-decoration:none; font-weight:bold; font-family:Verdana;}
+.middle-menu ul li a:hover {color:#FFF;}
+.midd-menu1 { background:url(../images/midd-menu1.png); width:80px; height:51px; color:#FFF; text-align:center;}
+.midd-menu2 { background:url(../images/midd-menu2.png); width:223px; height:72px; color:#a21e22; margin-left:38px; text-align:center;}
+.midd-menu3 { background:url(../images/midd-menu3.png); width:220px; height:74px; color:#d56b28; margin-left:38px; text-align:center;}
+.midd-menu4 { background:url(../images/midd-menu4.png); width:225px; height:74px; color:#73b943; margin-left:38px; text-align:center;}
+.midd-menu5 { background:url(../images/midd-menu5.png); width:217px; height:74px; color:#dcac26; margin-left:38px; text-align:center;}
+
+.bg-white { background:#FFF;}
+.artists-section { padding:0px;}
+.middle-tab-section { padding:0 0 20px;}
+.middle-tab-section-bg {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a090a+1,262626+35,2f2f2f+50,262626+65,0a090a+100 */
+background: #0a090a; /* Old browsers */
+background: -moz-linear-gradient(left, #0a090a 1%, #262626 35%, #2f2f2f 50%, #262626 65%, #0a090a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #0a090a 1%,#262626 35%,#2f2f2f 50%,#262626 65%,#0a090a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #0a090a 1%,#262626 35%,#2f2f2f 50%,#262626 65%,#0a090a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a090a', endColorstr='#0a090a',GradientType=1 ); /* IE6-9 */
+box-shadow:0 5px 6px #787878; padding:20px 0;}
+.artistsect-tabs { border-bottom:none;}
+.artistsect-tabs li { float:none; display:inline-block;}
+.artistsect-tabs li a { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#807f7f+0,444444+100 */
+background: #807f7f; /* Old browsers */
+background: -moz-linear-gradient(top, #807f7f 0%, #444444 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #807f7f 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #807f7f 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#807f7f', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+color:#FFF; border-radius:0px; font-size:18px; border:1px solid #454545; padding:11px 21px;}
+.nav-tabs.artistsect-tabs li > a:hover {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#024e68+0,04a4dc+100 */
+background: #024e68; /* Old browsers */
+background: -moz-linear-gradient(top, #024e68 0%, #04a4dc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #024e68 0%,#04a4dc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #024e68 0%,#04a4dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#024e68', endColorstr='#04a4dc',GradientType=0 ); /* IE6-9 */
+border:1px solid #030303; color:#FFF;}
+.nav-tabs.artistsect-tabs li.active > a, .nav-tabs.artistsect-tabs li.active > a:focus, .nav-tabs.artistsect-tabs li.active > a:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#024e68+0,04a4dc+100 */
+background: #024e68; /* Old browsers */
+background: -moz-linear-gradient(top, #024e68 0%, #04a4dc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #024e68 0%,#04a4dc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #024e68 0%,#04a4dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#024e68', endColorstr='#04a4dc',GradientType=0 ); /* IE6-9 */
+border:1px solid #030303; color:#FFF; outline:none;
+	}
+	.artist-img-blog {
+    text-align: center;
+}
+	.artist-img-blog img {
+    
+    min-width:100%;
+}
+
+.tumb-img {
+    max-height: 250px; border: 3px solid #000;
+    overflow: hidden;  box-shadow: 5px 5px 15px #808080;
+}
+
+.artist-img-blog p { margin-top:10px; margin-bottom:15px; font-size:16px;}
+.listartist-section .section-header { color:#FFF; margin:0px; padding-bottom:40px;}
+.listartist-section {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+15,232323+50,000000+85 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left, #000000 15%, #232323 50%, #000000 85%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #000000 15%,#232323 50%,#000000 85%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #000000 15%,#232323 50%,#000000 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */}
+.listartist-tab-section-bg { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,191a1a+40,201f1f+50,191a1a+60,000000+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left, #000000 0%, #191a1a 40%, #201f1f 50%, #191a1a 60%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #000000 0%,#191a1a 40%,#201f1f 50%,#191a1a 60%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #000000 0%,#191a1a 40%,#201f1f 50%,#191a1a 60%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+padding:30px 0;
+ box-shadow:0 0 10px #000;}
+.listartist-tab-inner-bg { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,1a191a+20,292829+50,1a191a+80,000000+100 */
+background: #000000; /* Old browsers */
+background: -moz-linear-gradient(left, #000000 0%, #1a191a 20%, #292829 50%, #1a191a 80%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #000000 0%,#1a191a 20%,#292829 50%,#1a191a 80%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #000000 0%,#1a191a 20%,#292829 50%,#1a191a 80%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+box-shadow:0 0 10px #101010;
+padding:20px; color:#FFF;}
+.artists-list-box {border-radius:5px;}
+.artists-list-box  ul{ margin:0px; padding:0px; }
+.artists-list-box ul li { list-style:none;}
+.artists-list-box ul li a { color:#FFF; font-size:13px; padding:7px 10px; display:block; text-decoration:none;  border-radius:0px; }
+.artists-list-box ul li:first-child { border-radius:5px 5px 0 0;}
+.artists-list-box ul li:last-child { border-radius:0 0 5px 5px;}
+
+.artists-list-box ul li:last-child { border-bottom:none;}
+.artists-list-box-blue {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#04a9e2+3,037aa4+50,003348+100 */
+background: #04a9e2; /* Old browsers */
+background: -moz-linear-gradient(top, #04a9e2 3%, #037aa4 50%, #003348 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #04a9e2 3%,#037aa4 50%,#003348 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #04a9e2 3%,#037aa4 50%,#003348 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04a9e2', endColorstr='#003348',GradientType=0 ); /* IE6-9 */}
+.artists-list-box-blue ul li {border-bottom:1px solid #50b5da;}
+.artists-list-box-blue ul li:hover { background:#35a2cd;}
+.artists-list-box-green {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8dcf00+3,568400+50,213e00+100 */
+background: #8dcf00; /* Old browsers */
+background: -moz-linear-gradient(top, #8dcf00 3%, #568400 50%, #213e00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #8dcf00 3%,#568400 50%,#213e00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #8dcf00 3%,#568400 50%,#213e00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dcf00', endColorstr='#213e00',GradientType=0 ); /* IE6-9 */}
+.artists-list-box-green ul li {border-bottom:1px solid #aad063;}
+.artists-list-box-green ul li:hover { background:#8ebe36;}
+.artists-list-box-orange {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e47b0c+3,884102+50,350c00+100 */
+background: #e47b0c; /* Old browsers */
+background: -moz-linear-gradient(top, #e47b0c 3%, #884102 50%, #350c00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e47b0c 3%,#884102 50%,#350c00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e47b0c 3%,#884102 50%,#350c00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e47b0c', endColorstr='#350c00',GradientType=0 ); /* IE6-9 */}
+.artists-list-box-orange ul li {border-bottom:1px solid #f6c69a;}
+.artists-list-box-orange ul li:hover { background:#d5833d;}
+.artists-list-box-red {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b21801+3,820e00+50,310000+100 */
+background: #b21801; /* Old browsers */
+background: -moz-linear-gradient(top, #b21801 3%, #820e00 50%, #310000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b21801 3%,#820e00 50%,#310000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b21801 3%,#820e00 50%,#310000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b21801', endColorstr='#310000',GradientType=0 ); /* IE6-9 */}
+.artists-list-box-red ul li {border-bottom:1px solid #d47f73;}
+.artists-list-box-red ul li:hover { background:#ad4436;}
+
+
+/*innerpage profile page*/
+.artist-profile-slider .flexslider-larg { border:7px solid #000; border-radius:0px; box-shadow:0 7px 15px #000; margin:0px; padding:0px;}
+.artist-profile-slider .flexslider-thumb { padding:10px 50px; border:7px solid #000; border-radius:0px; box-shadow:0 7px 15px #000; background:url(../images/profile-slider-thumb-bg.jpg);}
+ #carousel2 .slides li { background:#000; height:102px; overflow:hidden;  border:solid 1px #333; padding:5px; }
+.artist-profile-slider .flexslider-thumb .flexslider-thumb-img {transform: translate3d(0px, 0px, 0px); max-height:90px; transition: all 1s ease 0s; display:block; overflow:hidden}
+.artist-profile-slider .flexslider-thumb .slides li:hover { border:solid 1px #fff !important;}
+.artist-profile-slider .flexslider-thumb .flexslider-thumb-img:hover { transform: scale(1.1);}
+.profile-social-link { margin:30px auto; box-shadow:0px 0px 20px #000; display:table}
+.profile-social-link a {  color:#fff; display:inline-block;text-align:left; width:60px; padding:5px 7px; background:#ababab; border:1px solid #494848; margin:0 3px;}
+.profile-social-link .pinterest-profile:hover {background:#bd081c; border:1px solid #bd081c;}
+.profile-social-link .facebook-profile:hover { background:#3d5b95; border:1px solid #3d5b95;}
+.profile-social-link .twitter-profile:hover { background:#33bdfd; border:1px solid #33bdfd;}
+.profile-social-link .google-plus-profile:hover { background:#db4639; border:1px solid #db4639;}
+.profile-social-link .shopping-cart-profile:hover { background:#00a846; border:1px solid #00a846;}
+.artist-profile-slider .flex-direction-nav li a.flex-prev { background:url(../images/slide-arow-left3.png); background-repeat:no-repeat; height:43px; left:15px !important;}
+.artist-profile-slider .flex-direction-nav li a.flex-next { background:url(../images/slide-arow-right3.png); background-repeat:no-repeat; height:43px; right:5px !important;}
+
+.artist-profile-video-section { background:#555555; margin:45px 0 3px; box-shadow:0 5px 10px #000;}
+.artist-information-menu a { margin-left:0px;}
+.midd-menu6 { background:url(../images/midd-menu6.png); width:200px; height:70px; color:#FFF; text-align:center;}
+.artist-information-menu .middle-menu .midd-menu2 .midd-menu3 .midd-menu4 .midd-menu5 { margin-left:0px;}
+.artist-profile-video-section .flexslider-thumb { background:#000;}
+.artist-profile-video-section .flexslider-thumb li { margin:0px 65px;}
+
+#carousel3 .slides li { background:#000; height:102px; overflow:hidden;  border:solid 1px #333; padding:5px; }
+
+.artist-profile-video-section .flex-direction-nav li a.flex-prev { background:none;}
+.artist-profile-video-section .flex-direction-nav li a.flex-next { background:none;}
+
+
+.artist-information-img img { margin-bottom:20px; border:1px solid #000; }
+.artist-information-section{ font-size:16px; color:#555555;}
+.information-read-more a, .contact-artist a { font-size:21px; color:#027fb0; text-decoration:none; margin-top:20px; display:block;}
+.contact-artist .fa { color:#5dcaed; display:inline-block; vertical-align:middle; margin:0 0 5px 0;}
+.information-read-more a:hover, .contact-artist a:hover { color:#5dcaed}
+.contact-artist { text-align:right;}
+	@media (max-width: 1200px) {
+	.navbar-inverse .main-menu ul li{ padding:0 26px;}
+	.midd-menu2, .midd-menu3, .midd-menu4, .midd-menu5 { margin-left:0px;}
+	.artist-profile-video-section .flexslider-thumb li { margin:0 35px !important;}
+	}
+	
+	@media (max-width: 991px) {
+	
+	.sevice-box .icon-box{ padding:10px 15px;}
+.col-md-5ths { width:25%;}
+.navbar-inverse .main-menu ul li{ padding:0 18px;}
+.navbar-inverse .main-menu ul li a{ font-size:16px;}
+.navbar-inverse .main-menu ul li a span{ font-size:20px;}
+.artist-profile-video-section .flex-direction-nav li a.flex-prev { display:inherit;  background:url(../images/slide-arow-left3.png); background-repeat:no-repeat; height:43px; left:15px !important;}
+	.artist-profile-video-section .flex-direction-nav li a.flex-next { display:inherit; background:url(../images/slide-arow-right3.png); background-repeat:no-repeat; height:43px; right:5px !important;}
+	.artist-profile-video-section .flexslider-thumb li { margin:0 5px !important;}
+	}
+@media (max-width: 768px) {
+	.section{ padding:30px 0;}
+	.navbar-inverse {
+    background: #161616 none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 0 0px;
+}
+.logo{ margin-bottom:15px; text-align:center;}
+.top-right .pull-right{ float:none !important; text-align:center;}
+.top-right .pull-right .inline{ float:none;}
+.top-right .pull-right .down-arow{ margin-right:-5px;}
+.slider3-section .fill{ margin:0 50px;}
+.carousel-control.right{ right:20px;}
+.navbar-inverse .main-menu ul.navbar-nav{ margin:0;}
+.navbar-inverse .main-menu ul li{ display:block; padding:0 15px;}
+.navbar-inverse .main-menu ul li:first-child, .navbar-inverse .main-menu ul li:last-child{ padding:0 15px;}
+.section .container  { margin:0px 30px;}
+.cat-section .cat-icon div{ padding:20% 0; }
+.col-md-5ths { width:50%;}
+.slider3-section .fill h3{ margin-top:15px;}
+.sevice-box .icon-box{ padding:50px 15px;}
+.two-icons{ padding:0 20px;}
+.social-links li{ margin:0 10px;}
+.navbar-inverse .main-menu ul li a{ overflow:hidden; font-size:18px; line-height:30px;}
+.navbar-inverse .main-menu ul li a div{ float:left; margin-bottom:0; margin-right:10px;}
+
+.social-links li{ margin:0;}
+.lang-bar{ margin-left:0;}
+#imaginary_container{ padding-left:0;}
+.navbar .navbar-header{ background:#3997b0; border-radius:5px; margin:5px 0;}
+.top{ padding:15px 0 0;}
+.artists-list-box  { margin-bottom:10px;}
+
+.information-read-more a, .contact-artist a { margin-top:0px;}
+.ptn { padding-top:0px;}
+}
+
+@media (max-width: 500px) {
+	.top-right .pull-right .inline{ display:block; position:relative; margin:5px 0px;}
+	.top-right .pull-right .inline .dropdown-menu{ left:0 !important; right:0 !important;}
+	.log-box .dropdown-toggle, .lang-bar button.btn-default{ display:block;}
+	.cat-section .cat-icon div{ padding:15% 0; }
+	.two-icons{ padding:0 0;}
+	.social-links li{ margin:0;}
+	.artistsect-tabs li { margin-bottom:10px;}
+	.col-xss-12 { width:100%;}
+	.contact-artist { text-align:left;}
+}
+@media (max-width: 400px) {
+	.cat-section .cat-icon div{ padding:10% 0; }
+	.col-md-5ths { width:100%;}
+	.gray-section .four-box .box-link{ font-size:22px;}
+	
+}
+@media (max-width: 360px) {
+	#carousel2 .slides li, #carousel3 .slides li{ height:63px;}}

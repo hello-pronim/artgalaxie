@@ -1,0 +1,110 @@
+/*
+    Mobile Menu Core Style
+*/
+
+@import "mixins.less";
+
+.slicknav_menu {
+  display:none;
+  background:#000000;
+  padding:5px;
+  font-size:18px;
+  *zoom: 1;
+  &:before, &:after {content: " "; display: table;}
+  &:after {clear: both}
+  // Button Text
+  .slicknav_menutxt {
+    color: #FFF;
+    font-weight: bold; 
+    display: block; 
+    line-height: 1.188em; 
+    float: left;
+  }
+  .slicknav_icon { 
+    float: left; 
+    margin: 0.188em 0 0 0.438em; 
+  }
+  .slicknav_no-text { 
+    margin: 0 
+  }
+  // Button Lines
+  .slicknav_icon-bar { 
+    font-size: 20px; 
+    display: block; 
+    width: 1.125em; 
+    height: 2px; 
+    .border-radius(1px); 
+    background: rgba(255,255,255, 0.7);
+    }
+  // Button
+  .slicknav_btn {
+    margin: 5px 5px 6px;  
+    text-decoration:none; 
+    .border-radius(4px);  
+    position: relative; 
+    display: block; 
+    vertical-align: middle; 
+    float: right; 
+    padding: 0.5em 0.7em; 
+    line-height: 1.125em; 
+    cursor: pointer;
+    .slicknav_icon-bar + .slicknav_icon-bar {margin-top: 0.188em}
+  }
+  .slicknav_nav {
+    color:#fff;
+    margin:0; 
+    padding:0;
+    list-style: none;
+    overflow:hidden;
+    clear: both; 
+    ul, li {display:block}
+    a {
+      padding:14px;
+      margin:2px 0px;
+      text-decoration:none;
+      color:#fff;
+      display: block;
+      &:hover {
+        background: rgba(0,0,0,0.6);
+      }
+    }
+    ul {
+      padding:0;
+      margin:0;
+      list-style: none;
+      overflow:hidden;
+      li {
+        background: rgba(0,0,0,0.2);
+        li {
+          background: rgba(0,0,0,0.3);
+          text-indent:10px;
+          a {
+          }
+          li {
+            background: rgba(0,0,0,0.3);
+            text-indent:20px;
+          }
+        }
+      }
+    }
+    .slicknav_arrow {font-size: 0.8em; margin: 0 0 0 0.4em;}
+    .slicknav_item {
+      display: block; 
+      cursor: pointer; 
+      padding:14px; 
+      margin:2px 0px;
+      a {
+        padding:0;
+        margin:0;
+      }
+      &:hover {
+        background: rgba(0,0,0,0.6);
+      }
+    }
+    .slicknav_item a {display: inline}
+    .slicknav_txtnode {
+         margin-left:15px;   
+    }
+  }
+}
+

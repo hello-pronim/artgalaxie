@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <? $this->load->view('webmaster/template/head'); ?>
+
+ <!-- Data Tables -->
+ <link href="<?=base_url()?>webmaster_assets/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+ <link href="<?=base_url()?>webmaster_assets/css/plugins/dataTables/dataTables.responsive.css" rel="stylesheet">
+ <link href="<?=base_url()?>webmaster_assets/css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
+
+</head>
+<body >
+  <div id="wrapper">
+    <!--- Nav start -->
+    <? $this->load->view('webmaster/template/left_nav'); ?>
+    <!--- Nav end -->
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+      <? $this->load->view('webmaster/template/top'); ?>
+      <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-8">
+          <h2>Art Of Giving List</h2>
+          <ol class="breadcrumb">
+            <li><a href="<?=site_url('dashboard')?>">Dashboard</a></li>
+            <li><a>Manage Art Of Giving</a></li>
+            <li class="active"><strong>Art Of Giving</strong></li>
+          </ol>
+        </div>
+        <div class="col-lg-4"><div class="title-action">
+          <a class="btn btn-primary pull-right" href="<?=site_url('webmaster/art_of_giving/manage_art_of_giving')?>" >Add new</a>
+        </div> </div>
+      </div>
+      <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row "><div class="col-lg-12"><div class="ibox float-e-margins">
+         <!--  <div class="ibox-title"></div> -->
+         <div class="ibox-content">
+          <? if($this->session->flashdata('Success')){?>
+          <div class="alert alert-success alert-dismissable" align="center">
+            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+            <?=$this->session->flashdata('Success')?>
+          </div>
+          <? }?>
+
+          <form name="frmcustlist" method="post" action="<?=site_url("webmaster/art_of_giving/delete_art_of_giving")?>" onSubmit="JavaScript:return confirm_delete()" class="form-horizontal">
+            <input type="hidden" value="delete" name="action" />
+            <table class="table table-striped table-bordered table-hover dataTables-example" cellspacing="0" width="100%">
+              <thead>
+                <tr>
+                    <!--<th align="left">Banner Image</th>-->
+                  <th align="left">Title</th>
+                  <th align="left">Manage Page</th>
+                  <th align="left">Links</th> 
+                  <th align="left">Products</th>
+                  <th align="left">Just Giving</th>
+                  <th align="left">Delete</th>
+                </tr>
+              </thead>
+              <tbody>  
+                <? if($num_rec>0){
+                  foreach ($list_data as $category) {?>
+                  <tr>
+                       <!--<td align="left">
+                      <? if(@$category['banner_image']!=''){ ?>
+                    <img src="<?=base_url()?>uploads/art_of_giving/<?=$category['banner_image']?>" width="10%" class="image-responsive">
+                    <? }else{ ?>
+                    <img src="<?=base_url()?>webmaster_assets/img/noImage.jpg" width="10%" class="image-responsive">
+                    <? } ?></td>-->
+                    <td align="left"><?=stripslashes($category['art_title'])?></td>
+                    <td align="left"><a href="<?=site_url('webmaster/art_of_giving/manage_art_of_giving/'.$category['id']);?>">Text/Banners</a></a></td>
+                  
+ <!--                   <td align="center"><a href="<?=site_url('webmaster/regionwise_gallery/manage_photo_gallery/'.$category['cat_id']);?>">Manage Photo Gallery</a></a></td> -->
+ <td><a href="<?=site_url("webmaster/art_of_giving/manage_art_of_giving_charity")?>">Charity links</a></td>
+ <td><a href="<?=site_url("webmaster/art_of_giving/manage_otherways_to_donate")?>">Donation Items</a></td>
+  <td><a href="<?=site_url("webmaster/art_of_giving/manage_just_giving_to_artist")?>">Thumbnails</a></td>
+  
+                   
+                    <td align="center"><input type="checkbox" name="cb[]" value="<?=$category['id']?>" ></td>
+                  </tr>   
+                  <? } 
+                }?>
+              </tbody>
+              <tfoot><tr><td colspan="5"></td>
+                <td><button type="submit" class="btn btn-delete">Delete</button></td></tr>
+              </tfoot>           
+            </table>
+          </form> 
+        </div>
+      </div>
+    </div></div></div>
+    <? $this->load->view("webmaster/template/footer")?>
+  </div>
+</div>
+<!-- Mainly scripts -->
+<? $this->load->view('webmaster/template/bot_script'); ?>
+<!-- Data Tables -->
+<script src="<?=base_url()?>webmaster_assets/js/plugins/dataTables/jquery.dataTables.js"></script>
+<script src="<?=base_url()?>webmaster_assets/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+<script src="<?=base_url()?>webmaster_assets/js/plugins/dataTables/dataTables.responsive.js"></script>
+<script src="<?=base_url()?>webmaster_assets/js/plugins/dataTables/dataTables.tableTools.min.js"></script>
+<!-- Page-Level Scripts -->
+<script>
+$(document).ready(function() {
+  $('.dataTables-example').dataTable({
+    responsive: true,
+    "aaSorting": [2,'desc'],
+    "pageLength": 100
+  });
+});
+</script>
+
+</body>
+</html>

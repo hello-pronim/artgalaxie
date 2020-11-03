@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Demo Slider - Portfolio #1</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="css/n2-ss-42.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="css/litebox.min.css" media="screen, print" />
+<style type="text/css">.n2-ss-spinner-simple-white-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.n2-ss-spinner-simple-white {
+  outline: 1px solid RGBA(0,0,0,0);
+  width:100%;
+  height: 100%;
+}
+
+.n2-ss-spinner-simple-white:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -11px;
+    margin-left: -11px;
+}
+
+.n2-ss-spinner-simple-white:not(:required):before {
+    content: '';
+    border-radius: 50%;
+    border-top: 2px solid #333;
+    border-right: 2px solid transparent;
+    animation: n2SimpleWhite .6s linear infinite;
+    -webkit-animation: n2SimpleWhite .6s linear infinite;
+}
+@keyframes n2SimpleWhite {
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes n2SimpleWhite {
+    to {-webkit-transform: rotate(360deg);}
+}</style>
+<script type="text/javascript">window.N2PRO=1;window.N2GSAP=1;window.N2PLATFORM="native";window.nextend={localization: {}, deferreds:[], loadScript: function(url){n2jQuery.ready(function () {var d = n2.Deferred();nextend.deferreds.push(d); n2.ajax({url:url,dataType:"script",cache:true,complete:function(){setTimeout(function(){d.resolve()})}})})}, ready: function(cb){n2.when.apply(n2, nextend.deferreds).done(function(){cb.call(window,n2)})}};window.N2SSPRO=1;window.N2SS3C="smartslider3";
+        nextend.fontsLoaded = false;
+        nextend.fontsLoadedActive = function () {nextend.fontsLoaded = true;};
+        var fontData = {
+            google: {
+                families: ["Raleway:300,400:latin"]
+            },
+            active: function(){nextend.fontsLoadedActive()},
+            inactive: function(){nextend.fontsLoadedActive()}
+        };
+        if(typeof WebFontConfig !== 'undefined'){
+            var _WebFontConfig = WebFontConfig;
+            for(var k in WebFontConfig){
+                if(k == 'active'){
+                  fontData.active = function(){nextend.fontsLoadedActive();_WebFontConfig.active();}
+                }else if(k == 'inactive'){
+                  fontData.inactive = function(){nextend.fontsLoadedActive();_WebFontConfig.inactive();}
+                }else if(k == 'google'){
+                    if(typeof WebFontConfig.google.families !== 'undefined'){
+                        for(var i = 0; i < WebFontConfig.google.families.length; i++){
+                            fontData.google.families.push(WebFontConfig.google.families[i]);
+                        }
+                    }
+                }else{
+                    fontData[k] = WebFontConfig[k];
+                }
+            }
+        }
+        if(typeof WebFont === 'undefined'){
+            window.WebFontConfig = fontData;
+        }else{
+            WebFont.load(fontData);
+        }</script>
+<script type="text/javascript" src="js/n2.js"></script>
+<script type="text/javascript" src="js/nextend-gsap.min.js"></script>
+<script type="text/javascript" src="js/nextend-frontend.min.js"></script>
+<script type="text/javascript" src="js/smartslider-frontend.min.js"></script>
+<script type="text/javascript" src="js/nextend-litebox.min.js"></script>
+<script type="text/javascript" src="js/smartslider-simple-type-frontend.min.js"></script>
+<script type="text/javascript" src="js/nextend-webfontloader.min.js"></script>
+<script type="text/javascript">window.n2jQuery.ready((function($){
+	window.nextend.ready(function() {
+
+        nextend.fontsDeferred = n2.Deferred();
+        if(nextend.fontsLoaded){
+            nextend.fontsDeferred.resolve();
+        }else{
+            nextend.fontsLoadedActive = function () {
+                nextend.fontsLoaded = true;
+                nextend.fontsDeferred.resolve();
+            };
+            var intercalCounter = 0;
+            nextend.fontInterval = setInterval(function(){
+                if(intercalCounter > 3 || document.documentElement.className.indexOf('wf-active') !== -1){
+                    nextend.fontsLoadedActive();
+                    clearInterval(nextend.fontInterval);
+                }
+                intercalCounter++;
+            }, 1000);
+        }
+new N2Classes.SmartSliderSimple('#n2-ss-42', {"admin":false,"translate3d":1,"callbacks":"","randomize":{"randomize":0,"randomizeFirst":0},"align":"normal","isDelayed":0,"load":{"fade":1,"scroll":0},"playWhenVisible":1,"playWhenVisibleAt":0.5,"responsive":{"desktop":1,"tablet":1,"mobile":1,"onResizeEnabled":true,"type":"fullpage","downscale":1,"upscale":1,"minimumHeight":-1,"maximumHeight":-1,"maximumSlideWidth":3000,"maximumSlideWidthLandscape":3000,"maximumSlideWidthTablet":3000,"maximumSlideWidthTabletLandscape":3000,"maximumSlideWidthMobile":3000,"maximumSlideWidthMobileLandscape":3000,"maximumSlideWidthConstrainHeight":0,"forceFull":1,"forceFullOverflowX":"body","forceFullHorizontalSelector":"","constrainRatio":0,"verticalOffsetSelectors":"#menu","focusUser":0,"focusAutoplay":0,"deviceModes":{"desktopPortrait":1,"desktopLandscape":0,"tabletPortrait":1,"tabletLandscape":0,"mobilePortrait":1,"mobileLandscape":0},"normalizedDeviceModes":{"unknownUnknown":["unknown","Unknown"],"desktopPortrait":["desktop","Portrait"],"desktopLandscape":["desktop","Portrait"],"tabletPortrait":["tablet","Portrait"],"tabletLandscape":["tablet","Portrait"],"mobilePortrait":["mobile","Portrait"],"mobileLandscape":["mobile","Portrait"]},"verticalRatioModifiers":{"unknownUnknown":1,"desktopPortrait":1,"desktopLandscape":1,"tabletPortrait":1,"tabletLandscape":1,"mobilePortrait":1,"mobileLandscape":1},"minimumFontSizes":{"desktopPortrait":4,"desktopLandscape":4,"tabletPortrait":4,"tabletLandscape":4,"mobilePortrait":4,"mobileLandscape":4},"ratioToDevice":{"Portrait":{"tablet":0.7,"mobile":0.5},"Landscape":{"tablet":0,"mobile":0}},"sliderWidthToDevice":{"desktopPortrait":1920,"desktopLandscape":1920,"tabletPortrait":1344,"tabletLandscape":0,"mobilePortrait":960,"mobileLandscape":0},"basedOn":"combined","tabletPortraitScreenWidth":800,"mobilePortraitScreenWidth":440,"tabletLandscapeScreenWidth":800,"mobileLandscapeScreenWidth":440,"orientationMode":"width_and_height","scrollFix":0,"overflowHiddenPage":0,"desktopPortraitScreenWidth":1200},"controls":{"scroll":0,"drag":1,"touch":"horizontal","keyboard":1,"tilt":0},"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":0,"start":1,"duration":8000,"autoplayToSlide":-1,"autoplayToSlideIndex":-1,"allowReStart":0,"pause":{"click":1,"mouse":"0","mediaStarted":1},"resume":{"click":0,"mouse":"0","mediaEnded":1,"slidechanged":0}},"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"parallax":{"enabled":1,"mobile":0,"is3D":0,"animate":1,"horizontal":"0","vertical":"scroll-invert","origin":"slider","scrollmove":"both"},"background.parallax.tablet":1,"background.parallax.mobile":1,"postBackgroundAnimations":0,"initCallbacks":[],"allowBGImageAttachmentFixed":false,"bgAnimations":{"global":[{"type":"Flat","tiles":{"crop":true,"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"current":{"ease":"easeOutCubic","scale":0.7},"next":{"ease":"easeOutCubic","left":"100%"}},"invert":{"zIndex":2,"current":{"left":"100%","scale":1},"next":{"scale":0.7,"left":0}}}],"speed":"normal"},"mainanimation":{"type":"horizontal","duration":800,"delay":0,"ease":"easeOutQuad","parallax":1,"shiftedBackgroundAnimation":"auto"},"carousel":1,"dynamicHeight":0});
+
+            window.n2Scroll = {
+                to: function(top){
+                    n2("html, body").animate({ scrollTop: top }, 400);
+                },
+                top: function(){
+                    n2Scroll.to(0);
+                },
+                bottom: function(){
+                    n2Scroll.to(n2(document).height() - n2(window).height());
+                },
+                before: function(el){
+                    n2Scroll.to(el.offset().top - n2(window).height());
+                },
+                after: function(el){
+                    n2Scroll.to(el.offset().top + el.height());
+                },
+                next: function(el, selector){
+                    var els = n2(selector),
+                        nextI = -1;
+                    els.each(function(i, slider){
+                        if(n2(el).is(slider) || n2.contains(slider, el)){
+                            nextI = i + 1;
+                            return false;
+                        }
+                    });
+                    if(nextI != -1 && nextI <= els.length){
+                        n2Scroll.element(els.eq(nextI));
+                    }
+                },
+                previous: function(el, selector){
+                    var els = n2(selector),
+                        prevI = -1;
+                    els.each(function(i, slider){
+                        if(n2(el).is(slider) || n2.contains(slider, el)){
+                            prevI = i - 1;
+                            return false;
+                        }
+                    });
+                    if(prevI >= 0){
+                        n2Scroll.element(els.eq(prevI));
+                    }
+                },
+                element: function(selector){
+                    var offsetTop = 0;
+                    if(typeof n2ScrollOffsetSelector !== "undefined"){
+                        offsetTop = n2(n2ScrollOffsetSelector).outerHeight();
+                    }
+                    n2Scroll.to(n2(selector).offset().top - offsetTop);
+                }
+            };
+
+        var n2Lightbox = function(container){
+            container.find("a[n2-lightbox-urls], div[n2-lightbox-urls]").css("cursor", "zoom-in").each(function(){
+                var el = $(this);
+                var group = el.data("litebox-group"),
+                    parts = el.attr("n2-lightbox-urls").split(","),
+                    titles = el.attr("n2-lightbox-titles").split("|||");
+                for(var i = 0; i < parts.length; i++){
+                    var a = $("<a href=\""+parts[i]+"\" data-litebox-group=\""+group+"\" style=\"display:none;\"></a>").appendTo("body");
+                    if(!!titles[i]){
+                        a.data("title", titles[i]);
+                    }
+                }
+            });
+            container.find("a[n2-lightbox], div[n2-lightbox]").css("cursor", "zoom-in").liteBox({
+                callbackBeforeOpen: function(e){
+                    this.$element.trigger("mediaStarted", this);
+                },
+                callbackAfterClose: function(){
+                    this.$element.trigger("mediaEnded", this);
+                }
+            });
+        };
+        n2Lightbox($("body"));
+        n2(window).on("n2Rocket", function(e, container){
+            n2Lightbox(container);
+        });
+	});
+}));
+</script>
+</head>
+<body>
+
+<!-- Nextend Smart Slider 3 #42 - BEGIN -->
+<div id="n2-ss-42-align" class="n2-ss-align"><div class="n2-padding"><div id="n2-ss-42" class="n2-ss-slider n2-ow n2-has-hover n2notransition n2-ss-load-fade " data-minFontSizedesktopPortrait="4" data-minFontSizedesktopLandscape="4" data-minFontSizetabletPortrait="4" data-minFontSizetabletLandscape="4" data-minFontSizemobilePortrait="4" data-minFontSizemobileLandscape="4" style="font-size: 16px;" data-fontsize="16">
+        <div class="n2-ss-slider-1 n2-ss-swipe-element n2-ow" style="">
+                        <div class="n2-ss-slider-2 n2-ow">
+                                    <div class="n2-ss-background-animation n2-ow"></div>
+                                <div class="n2-ss-slider-3 n2-ow" style="">
+
+                    <div class="n2-ss-slide-backgrounds"></div><div data-first="1" data-slide-duration="0" data-id="115" class="n2-ss-slide n2-ss-canvas n2-ow  n2-ss-slide-115" style=""><div data-hash="2c2e5e15df4b35e13cf675af197bacbb" data-desktop="images/block1background1.jpeg" class="n2-ss-slide-background n2-ow" data-opacity="1" data-blur="0" data-mode="fixed" data-x="50" data-y="50"><div class="n2-ss-slide-background-mask" style=""><img title="" src="images/block1background1.jpeg" alt="" /></div></div><div class="n2-ss-layers-container n2-ow" data-csstextalign="center" style=""><div class="n2-ss-section-outer" style=""><div class="n2-ss-layer n2-ow n2-ss-has-maxwidth " style="max-width: 800px;overflow:;" data-csstextalign="left" data-desktopportraitmaxwidth="800" data-tabletportraitmaxwidth="640" data-cssselfalign="left" data-desktopportraitselfalign="left" data-mobileportraitselfalign="left" data-pm="content" data-desktopportraitpadding="10|*|10|*|10|*|180|*|px+" data-tabletportraitpadding="10|*|10|*|10|*|70|*|px+" data-mobileportraitpadding="20|*|15|*|20|*|15|*|px+" data-desktopportraitinneralign="left" data-mobileportraitinneralign="center" data-type="content" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="1" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-section-main-content n2-ss-layer-content n2-ow" style="padding:0.625em 0.625em 0.625em 11.25em ;" data-verticalalign="center"><div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8MTAwfCp8MCIsIm91dFBsYXlFdmVudCI6InNob3ciLCJpbnN0YW50T3V0IjowLCJpbiI6W3sibmFtZSI6IkZhZGUiLCJkdXJhdGlvbiI6MS4yLCJvcGFjaXR5IjowLCJ5IjoiLTgwMCIsInJvdGF0aW9uWCI6IjkwIiwicm90YXRpb25ZIjoiNDUiLCJzY2FsZVgiOjEuNSwic2NhbGVZIjoxLjV9XX0=" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-mobileportraitfontsize="60" data-plugin="rendered"><div id="n2-ss-42item1" class="n2-font-dc4b0444b460222d5d3de6c516417cc3-hover   n2-ow" style="display:block;white-space:nowrap;">Henrik</div></div><div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJ0cmFuc2Zvcm1PcmlnaW5JbiI6IjUwfCp8MTAwfCp8MCIsIm91dFBsYXlFdmVudCI6InNob3ciLCJpbnN0YW50T3V0IjowLCJpbiI6W3sibmFtZSI6IkZhZGUiLCJkdXJhdGlvbiI6MS4yLCJkZWxheSI6MC4zLCJvcGFjaXR5IjowLCJ5IjoiLTgwMCIsInJvdGF0aW9uWCI6IjkwIiwicm90YXRpb25ZIjoiNDUiLCJzY2FsZVgiOjEuNSwic2NhbGVZIjoxLjV9XX0=" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-mobileportraitfontsize="60" data-plugin="rendered"><div id="n2-ss-42item2" class="n2-font-dc4b0444b460222d5d3de6c516417cc3-hover   n2-ow" style="display:block;white-space:nowrap;">Hansen</div></div><div class="n2-ss-layer n2-ow" style="margin:1.25em 0em 1.875em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="20|*|0|*|30|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwiZGVsYXkiOjEsIm9wYWNpdHkiOjAsInkiOiItMjAwIiwicm90YXRpb25YIjoiOTAiLCJzY2FsZVgiOjEuNSwic2NhbGVZIjoxLjV9XX0=" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-mobileportraitfontsize="70" data-plugin="rendered"><div class="n2-ow n2-ow-all n2-ss-desktop n2-ss-mobile n2-ss-tablet"><p class="n2-font-f06a5c93511c31cf083766ea2671795f-paragraph   n2-ow">I'm a Wedding and Family Portrait <b>Photographer</b> based in Oslo.</p>
+</div></div><div class="n2-ss-layer n2-ow n2-ss-autowidth" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="left" data-desktopportraitselfalign="left" data-csstextalign="inherit" data-desktopportraitpadding="0|*|0|*|0|*|0|*|px+" data-desktopportraitgutter="40" data-desktopportraitwrapafter="0" data-mobileportraitwrapafter="1" data-mobilelandscapewrapafter="1" data-desktopportraitinneralign="inherit" data-type="row" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-layer-row " style="padding:0em 0em 0em 0em ;"><div class="n2-ss-layer n2-ow" style="width: 50%;margin-right: 40px;margin-top: 40px;overflow:visible;" data-csstextalign="inherit" data-desktopportraitmaxwidth="0" data-pm="default" data-desktopportraitpadding="0|*|0|*|0|*|0|*|px+" data-desktopportraitinneralign="inherit" data-desktopportraitorder="0" data-type="col" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-layer-col n2-ss-layer-content" style="padding:0em 0em 0em 0em ;" data-verticalalign="flex-start"><div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" id="n14c4537269990" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwiZGVsYXkiOjEuMiwib3BhY2l0eSI6MCwieSI6Ii0yMDAiLCJyb3RhdGlvblgiOiI5MCIsInNjYWxlWCI6MS41LCJzY2FsZVkiOjEuNX1dfQ==" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-button-container n2-ow n2-font-7016f22034d9ab182777cb7736ddb33d-link  n2-ss-nowrap"><a class="n2-style-7b019e496c09319f679b77c3d1adf391-heading  n2-ow " onclick="n2Scroll.after(n2(this).closest(&quot;.n2-ss-slider&quot;).addBack());return false;" href="#"><span><span>My Passion</span></span></a></div></div></div></div><div class="n2-ss-layer n2-ow" style="width: 50%;margin-right: 40px;margin-top: 40px;overflow:visible;" data-csstextalign="inherit" data-desktopportraitmaxwidth="0" data-pm="default" data-desktopportraitpadding="0|*|0|*|0|*|0|*|px+" data-desktopportraitinneralign="inherit" data-desktopportraitorder="0" data-type="col" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-layer-col n2-ss-layer-content" style="padding:0em 0em 0em 0em ;" data-verticalalign="flex-start"><div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwiZGVsYXkiOjEuNCwib3BhY2l0eSI6MCwieSI6Ii0yMDAiLCJyb3RhdGlvblgiOiI5MCIsInNjYWxlWCI6MS41LCJzY2FsZVkiOjEuNX1dfQ==" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-button-container n2-ow n2-font-49e07308c33199bddf13bb8a12580fac-link  n2-ss-nowrap"><a class="n2-style-b506afc0eec6a675cf402e5590ec293b-heading  n2-ow " onclick="n2ss.applyActionWithClick(this, &#039;next&#039;); return false" href="#"><span><span>How I Work</span></span></a></div></div></div></div></div></div></div></div></div><div class="n2-ss-layer n2-ow" style="left:0px;top:-20px;width:42px;height:42px;overflow:visible;" data-pm="absolute" data-responsiveposition="1" data-desktopportraitleft="0" data-desktopportraittop="-20" data-responsivesize="0" data-desktopportraitwidth="42" data-desktopportraitheight="42" data-desktopportraitalign="center" data-desktopportraitvalign="bottom" data-parentid="" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-type="layer" data-rotation="0" data-animations="eyJpbiI6W3sibmFtZSI6IkJvdHRvbSIsImRlbGF5IjoyLCJlYXNlIjoiZWFzZUluT3V0UXVhZCIsIm9wYWNpdHkiOjB9XSwibG9vcCI6W3sibmFtZSI6IlB1bHNlIiwiZGVsYXkiOjAuMiwiZWFzZSI6ImVhc2VJbk91dFF1YWQiLCJ5IjoiMTAifV19" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="0" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class=" n2-ss-img-wrapper n2-ow" style="overflow:hidden;"><a class="n2-ow" onclick="n2Scroll.after(n2(this).closest(&quot;.n2-ss-slider&quot;).addBack());return false;" href="#"><img src="images/scrolldown.png" id="n2-ss-42item6" alt="Image is not available" style="display: inline-block; max-width: 100%; width: 100%;height: auto;" class=" n2-ow" title="" /></a></div></div></div></div><div data-slide-duration="0" data-id="116" class="n2-ss-slide n2-ss-canvas n2-ow  n2-ss-slide-116" style=""><div data-hash="46025f509bf7aceed46d24ca039b0374" data-desktop="images/block1background2.jpeg" class="n2-ss-slide-background n2-ow" data-opacity="1" data-blur="0" data-mode="fixed" data-x="50" data-y="50"><div class="n2-ss-slide-background-mask" style=""><img title="" src="images/block1background2.jpeg" alt="" /></div></div><div class="n2-ss-layers-container n2-ow" data-csstextalign="center" style=""><div class="n2-ss-section-outer" style=""><div class="n2-ss-layer n2-ow n2-ss-has-maxwidth " style="max-width: 880px;overflow:;" data-csstextalign="inherit" data-desktopportraitmaxwidth="880" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-pm="content" data-desktopportraitpadding="50|*|10|*|50|*|10|*|px+" data-tabletportraitpadding="75|*|10|*|75|*|10|*|px+" data-desktopportraitinneralign="inherit" data-type="content" data-rotation="0" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="1" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-section-main-content n2-ss-layer-content n2-ow" style="padding:3.125em 0.625em 3.125em 0.625em ;" data-verticalalign="center"><div class="n2-ss-layer n2-ow n2-ss-has-maxwidth " style="margin:0em 0em 1.875em 0em ;max-width: 670px;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|30|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="670" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwib3BhY2l0eSI6MCwieSI6Ii0yMDAiLCJyb3RhdGlvblgiOiI0NSIsInNjYWxlWCI6MS41LCJzY2FsZVkiOjEuNX1dfQ==" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-mobileportraitfontsize="60" data-plugin="rendered"><div id="n2-ss-42item7" class="n2-font-fe2006d065f4b94da803984f7ca8dfa8-hover   n2-ow" style="display:block;">Behind the scenes of my latest photoshoot</div></div><div class="n2-ss-layer n2-ow" style="margin:0em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="0|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwiZGVsYXkiOjAuNSwib3BhY2l0eSI6MCwieSI6Ii0yMDAiLCJyb3RhdGlvblgiOiI0NSIsInNjYWxlWCI6MS41LCJzY2FsZVkiOjEuNX1dfQ==" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class=" n2-ss-img-wrapper n2-ow" style="overflow:hidden;"><a class="n2-ow n2-lightbox-trigger" onclick="return false;" n2-lightbox="" href="https://www.youtube.com/watch?v=MKmIwHAFjSU"><img src="images/video.png" id="n2-ss-42item8" alt="Image is not available" style="display: inline-block; max-width: 100%; width: auto;height: auto;" class=" n2-ow" title="" /></a></div></div><div class="n2-ss-layer n2-ow" style="margin:2.1875em 0em 0em 0em ;overflow:visible;" data-pm="normal" data-desktopportraitmargin="35|*|0|*|0|*|0|*|px+" data-desktopportraitheight="0" data-desktopportraitmaxwidth="0" data-cssselfalign="inherit" data-desktopportraitselfalign="inherit" data-type="layer" data-rotation="0" data-animations="eyJvdXRQbGF5RXZlbnQiOiJzaG93IiwiaW5zdGFudE91dCI6MCwiaW4iOlt7Im5hbWUiOiJGYWRlIiwiZGVsYXkiOjEuMSwib3BhY2l0eSI6MCwieSI6Ii0yMDAiLCJyb3RhdGlvblgiOiI5MCIsInNjYWxlWCI6MS41LCJzY2FsZVkiOjEuNX1dfQ==" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="1" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class="n2-ss-button-container n2-ow n2-font-7016f22034d9ab182777cb7736ddb33d-link  n2-ss-nowrap"><a class="n2-style-7b019e496c09319f679b77c3d1adf391-heading  n2-ow " onclick="n2ss.applyActionWithClick(this, &#039;previous&#039;); return false" href="#"><span><span>Who are you?</span></span></a></div></div></div></div></div><div class="n2-ss-layer n2-ow" style="left:0px;top:-20px;width:42px;height:42px;overflow:visible;" data-pm="absolute" data-responsiveposition="1" data-desktopportraitleft="0" data-desktopportraittop="-20" data-responsivesize="0" data-desktopportraitwidth="42" data-desktopportraitheight="42" data-desktopportraitalign="center" data-desktopportraitvalign="bottom" data-parentid="" data-desktopportraitparentalign="center" data-desktopportraitparentvalign="middle" data-type="layer" data-rotation="0" data-animations="eyJpbiI6W3sibmFtZSI6IkJvdHRvbSIsImRlbGF5IjoyLCJlYXNlIjoiZWFzZUluT3V0UXVhZCIsIm9wYWNpdHkiOjB9XSwibG9vcCI6W3sibmFtZSI6IlB1bHNlIiwiZGVsYXkiOjAuMiwiZWFzZSI6ImVhc2VJbk91dFF1YWQiLCJ5IjoiMTAifV19" data-desktopportrait="1" data-desktoplandscape="1" data-tabletportrait="1" data-tabletlandscape="1" data-mobileportrait="0" data-mobilelandscape="1" data-adaptivefont="0" data-desktopportraitfontsize="100" data-plugin="rendered"><div class=" n2-ss-img-wrapper n2-ow" style="overflow:hidden;"><a class="n2-ow" onclick="n2Scroll.after(n2(this).closest(&quot;.n2-ss-slider&quot;).addBack());return false;" href="#"><img src="images/scrolldown.png" id="n2-ss-42item10" alt="Image is not available" style="display: inline-block; max-width: 100%; width: 100%;height: auto;" class=" n2-ow" title="" /></a></div></div></div></div>                </div>
+            </div>
+                    </div>
+        </div><div class="n2-clear"></div><div id="n2-ss-42-spinner" style="display: none;"><div><div class="n2-ss-spinner-simple-white-container"><div class="n2-ss-spinner-simple-white"></div></div></div></div></div></div><div id="n2-ss-42-placeholder" style="position: relative;z-index:2;"><img style="width: 100%; max-width:3000px; display: block;" class="n2-ow" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMCIgd2lkdGg9IjE5MjAiIGhlaWdodD0iMTA4MCIgPjwvc3ZnPg==" alt="Slider" /></div>
+<!-- Nextend Smart Slider 3 #42 - END -->
+</body>
+</html>

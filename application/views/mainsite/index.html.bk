@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Welcome</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/modern-business.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="js/flexslider2.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/aos.css" type="text/css" media="screen" />
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body >
+<header>
+  <div class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-5 col-sm-3">
+          <div class="logo"> <a href="#"> <img src="images/logo.jpg" alt=""/> </a> </div>
+        </div>
+        <div class="col-lg-6 col-md-7 col-sm-9 top-right">
+          <div class="pull-right">
+            <div class="log-box inline">
+              <ul class="drop-box">
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><b>Register</b></span> <span class="down-arow"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a> </li>
+              </ul>
+            </div>
+            <div class="log-box inline">
+              <ul class="drop-box">
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span><b>Log in</b></span> <span class="down-arow"><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                  <ul id="login-dp" class="dropdown-menu">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                            <div class="form-group">
+                              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                            </div>
+                            <div class="form-group">
+                              <label class="sr-only" for="exampleInputPassword2">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                              <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                            </div>
+                            <div class="form-group">
+                              <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox">
+                                keep me logged-in </label>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="btn-groupx lang-bar inline">
+              <div class="top-menus"> <a href="#"> Blog</a><a href="#"> Magazine </a><a href="#"> Shop </a> </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+              <div class="col-sm-7 pull-right">
+                <div class="btn-groupx lang-bar text-right">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"> <span class="lang-sm lang-lbl-full" lang="it"> Select language</span> <span class="aror-btn"><i class="fa fa-angle-up" aria-hidden="true"></i> <i aria-hidden="true" class="fa fa-angle-down"></i></span> </button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#"><span></span>Engliish</a></li>
+                    <li><a href="#"><span></span>Engliish</a></li>
+                    <li><a href="#"><span></span>Engliish</a></li>
+                    <li><a href="#"><span></span>Engliish</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-7 pull-right">
+                <div id="imaginary_container">
+                  <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control"  placeholder="Search" >
+                    <span class="input-group-addon">
+                    <button type="submit"> <span class="glyphicon glyphicon-search"></span> </button>
+                    </span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse main-menu" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="menu-style1"> <a href="#"> <div><span></span></div> Home </a></li>
+          <li class="menu-style2"> <a href="#"> <div><span></span></div> Artists</a></li>
+          <li class="menu-style3"> <a href="#"> <div><span></span></div> Galleries </a></li>
+          <li class="menu-style4"> <a href="#"> <div><span></span></div> Styles </a></li>
+          <li class="menu-style5"> <a href="#"> <div><span></span></div> Publications</a></li>
+          <li class="menu-style6"> <a href="#"> <div><span></span></div> Video</a></li>
+          <li class="menu-style7"> <a href="#"> <div><span></span></div> About us</a></li>
+          <li class="menu-style8"> <a href="#"> <div><span></span></div> Services</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+</header>
+
+<!--banner-->
+<div class="top-slider" data-aos="fade-up">
+<div id="myCarousel" class="carousel slide carousel-fade" >   <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="images/banner.jpg" alt=""/></div>
+                
+            </div>
+            <div class="item">
+                <div class="fill"><img src="images/banner2.jpg" alt=""/></div>
+                
+            </div>
+           
+        </div>
+
+      
+         </div>
+</div>
+<!-- Page Content -->
+<div class="section cat-section" >
+  <div class="container" >
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="700">
+      <h2 class="section-header text-center">Categories</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 ">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center">
+            <div class="cat-box" data-aos="fade-up" data-aos-delay="800">
+              <div class="cat-box-in1">
+                <div class="cat-img"></div>
+                <div class="cat-title">Painting</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center">
+            <div class="cat-box" data-aos="fade-up" data-aos-delay="1100">
+              <div class="cat-box-in2">
+                <div class="cat-img"></div>
+                <div class="cat-title">Sculpture</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center">
+            <div class="cat-box" data-aos="fade-up" data-aos-delay="1500">
+              <div class="cat-box-in3">
+                <div class="cat-img"></div>
+                <div class="cat-title">Drawing</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center">
+            <div class="cat-box" data-aos="fade-up" data-aos-delay="1800">
+              <div class="cat-box-in4">
+                <div class="cat-img"></div>
+                <div class="cat-title">Digital Art</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class=" section slider1-section new-slider" >
+  
+  
+   <div data-aos="fade-up"  data-aos-once="true">
+<div id="myCarousel1" class="carousel slide carousel-fade lg-arrow" >   <!-- Indicators -->
+      <!--  <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            
+        </ol>-->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="images/hom-slide1new.jpg" alt=""/></div>
+                
+            </div>
+            <div class="item">
+                <div class="fill"><img src="images/hom-slide1new.jpg" alt=""/></div>
+                
+            </div>
+           
+        </div>
+<!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+           <span class="v-align"> <span><img src="images/slider-left-arow.png" alt=""/></span></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+            <span class="v-align"><span><img src="images/slider-right-arow.png" alt=""/></span></span>
+        </a>
+      
+         </div>
+</div>
+  
+</div>
+<div class="section who-we-are-section">
+  <div class="container" >
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="0">
+      <h2 class="section-header text-center">Who we are</h2>
+    </div>
+    <div class="text text-center" data-aos="fade-up"  data-aos-delay="600"> Art Galaxie is an organization that serves to promote and disseminate the artwork of contemporary artist’s. for this purpose, we use the
+      most distinct and  complementary platforms: this Art Portal, Carious publications of Art Books, Documentary Films, Video Lessons and an 
+      art Magzine (coming soon). Art Galaxie also organizes international exhibitions (both collective and solo) in various countries within
+      Europe, Asia and the United States of America. This project is divided into 6 fundamental categories: </div>
+    <div class="mid-tag-line text-center" data-aos="fade-up" data-aos-delay="700">Art Galaxie, a Universe full of Stars!</div>
+  </div>
+</div>
+<div class="section services-section " >
+  <div class="container" >
+    <div class="col-lg-12" data-aos="fade-up" data-aos-delay="800">
+      <h2 class="section-header text-center">Our Services</h2>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-5ths " data-aos="fade-up" data-aos-delay="700">
+        <div class="sevice-box sevice-box1">
+          <div class="icon-box"> </div>
+          <div class="serv-title">Publications</div>
+          <div class="serv-text">Art Galaxie is an organization that
+            serves to promote and disseminate</div>
+        </div>
+      </div>
+      <div class="col-md-5ths" data-aos="fade-up" data-aos-delay="1100">
+        <div class="sevice-box sevice-box2" >
+          <div class="icon-box "> </div>
+          <div class="serv-title">Websites</div>
+          <div class="serv-text">Art Galaxie is an organization that
+            serves to promote and disseminate</div>
+        </div>
+      </div>
+      <div class="col-md-5ths" data-aos="fade-up" data-aos-delay="1500">
+        <div class="sevice-box sevice-box3" >
+          <div class="icon-box"> </div>
+          <div class="serv-title">Art Marketing</div>
+          <div class="serv-text">Art Galaxie is an organization that
+            serves to promote and disseminate</div>
+        </div>
+      </div>
+      <div class="col-md-5ths" data-aos="fade-up" data-aos-delay="1800">
+        <div class="sevice-box sevice-box4" >
+          <div class="icon-box"> </div>
+          <div class="serv-title">Video</div>
+          <div class="serv-text">Art Galaxie is an organization that
+            serves to promote and disseminate</div>
+        </div>
+      </div>
+      <div class="col-md-5ths" data-aos="fade-up" data-aos-delay="2100">
+        <div class="sevice-box sevice-box5" >
+          <div class="icon-box"> </div>
+          <div class="serv-title">Exhibitions</div>
+          <div class="serv-text">Art Galaxie is an organization that
+            serves to promote and disseminate</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--<div class="section slider2-section" >
+  <div class="container" data-aos="fade-up">
+    <div>
+      <h2 class="section-header text-center">Our Products</h2>
+    </div>
+    <div class="flexslider carousel">
+      <ul class="slides">
+        <li> <img src="images/email-banner.jpg" alt="" /> </li>
+        <li> <img src="images/email-banner.jpg" alt="" /> </li>
+        <li> <img src="images/email-banner.jpg" alt="" /> </li>
+        <li> <img src="images/email-banner.jpg" alt="" /> </li>
+      </ul>
+    </div>
+  </div>
+</div>-->
+
+<div class=" section slider1-section new-slider" >
+  
+  
+   <div data-aos="fade-up"  data-aos-once="true">
+<div id="myCarousel8" class="carousel slide carousel-fade lg-arrow" >   <!-- Indicators -->
+      <!--  <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            
+        </ol>-->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill"><img src="images/hom-slide2new.jpg" alt=""/></div>
+                
+            </div>
+            <div class="item">
+                <div class="fill"><img src="images/hom-slide2new.jpg" alt=""/></div>
+                
+            </div>
+           
+        </div>
+<!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel8" data-slide="prev">
+            <span class="v-align"><span><img src="images/slider-left-arow.png" alt=""/></span></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel8" data-slide="next">
+            <span class="v-align"><span><img src="images/slider-right-arow.png" alt=""/></span></span>
+        </a>
+      
+         </div>
+</div>
+  
+</div>
+
+
+<div class="section our-mission-section" >
+  <div class="container" >
+    <div data-aos="fade-up" data-aos-delay="0">
+      <h2 class="section-header text-center">Our Mission</h2>
+    </div>
+    <div class="text text-center" >
+      <p data-aos="fade-up" data-aos-delay="600">Creative expression is often not given the attention it so deserves.<br> 
+Art Galaxie is an innovative means giving to talented artists free and low pricing; providing a platform of colorful<br>
+creative expression. We are devoted to artistic expression and the duty to give back to others, while maintaining high<br>
+standards of client satisfaction.
+</p>
+      <p data-aos="fade-up" data-aos-delay="900">It is our goal to provide innovative art opportunities assisting great artists to express their creations; enhancing the<br>
+lives of many creating a more colorful world experience.Creative expression is often not given the attention it so Art<br>
+Galaxie is an innovative means giving to talented artists </p>
+    </div>
+  </div>
+</div>
+<div class="section featured-section">
+  <div class="container" >
+    <div data-aos="fade-up">
+      <h2 class="section-header text-center" data-aos="fade-up" >Featured Artist<br>
+        <div class="artist-name" data-aos="fade-up" data-aos-delay="1000" >ARTISTS NAME</div>
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-sm-push-4" data-aos="fade-up" data-aos-delay="1200" data-aos-easing="ease">
+        <div class="artist-pic"><a href="featured-artist-single.html"> <img src="images/sliderimage.png" alt=""/> </a></div>
+      </div>
+      <div class="col-sm-4 col-sm-pull-4" >
+        <div class="atist-txt atist-txt-mr-bottom" data-aos="fade-right" data-aos-delay="1500" data-aos-easing="ease">
+          <h4>Interview</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ipiscing elit, sfgskgkghjl dunt ut labore . </div>
+        <div class="atist-txt" data-aos="fade-right" data-aos-delay="1800" data-aos-easing="ease">
+          <h4>Artwork Gallery</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ipiscing elit, sfgskgkghjl dunt ut labore . </div>
+      </div>
+      <div class="col-sm-4" >
+        <div class="atist-txt atist-txt-mr-bottom" data-aos="fade-left" data-aos-delay="1500" data-aos-easing="ease">
+          <h4>Inside the Studio</h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ipiscing elit, sfgskgkghjl dunt ut labore . </div>
+        <div class="atist-txt" data-aos="fade-left" data-aos-delay="1800" data-aos-easing="ease">
+          <h4>Video </h4>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ipiscing elit, sfgskgkghjl dunt ut labore . </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section art-section">
+  <div class="container"  >
+    <div data-aos="fade-up"  data-aos-delay="500" >
+      <h2 class="section-header text-center">The Art of Giving</h2>
+    </div>
+    <div class="text text-center">
+      <p  data-aos="fade-up"  data-aos-delay="1000">Our mission is not only to aid and support the Artists but also those others in need. We do this by donating and <br>
+raising funds for charity institutes and solidarity organizations. We also organize auctions in which all the funds will<br>
+be contributed towards social solidarity organizations.</p>
+<p  data-aos="fade-up"  data-aos-delay="1000">We also organize auctions in which all the funds will be contributed towards social solidarity organizations.<br>
+Kindly see our Affiliate Program and UNICEF Fundraising.</p>
+    </div><br>
+
+    <div class="text-center" data-aos="fade-up"  data-aos-delay="1000">
+      <div class="two-icons"><a href="#" class="icon1"> </a><span>Affiliate program</span></div>
+      <div class="two-icons"><a href="#" class="icon2"> </a><span>Unicef</span></div>
+    </div>
+  </div>
+</div>
+<div class="section slider4-section">
+  <div class="container" data-aos="fade-up" data-aos-duration="1500">
+    <div >
+      <h2 class="section-header text-center">Blog</h2>
+    </div>
+    <div class="flexslider2 carousel" data-aos="zoom-in" >
+      <ul class="slides">
+        <li >
+          <div class="blog-box" >
+            <div class="blog-img"><img src="images/blog-img.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+        <li>
+          <div class="blog-box">
+            <div class="blog-img"><img src="images/blog-img2.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+        <li>
+          <div class="blog-box">
+            <div class="blog-img"><img src="images/blog-img3.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+        <li>
+          <div class="blog-box">
+            <div class="blog-img"><img src="images/blog-img4.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+        <li>
+          <div class="blog-box">
+            <div class="blog-img"><img src="images/blog-img.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+        <li>
+          <div class="blog-box">
+            <div class="blog-img"><img src="images/blog-img3.jpg" alt=""/></div>
+            <div class="blog-title">be true to yourself</div>
+            <div class="blog-disc"> In 1997, the great business writer, Tom
+              peters introduced the world to “Brand
+              you”, an idea about building your own
+              personal brand, regardles of who.... </div>
+            <div class="blog-links"> <span>September 6,2016</span> <span class="pull-right"><a href="#">Continue Reading</a></span> </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="section gray-section" >
+  <div class="container" xdata-aos="fade-up" xdata-aos-duration="2000">
+    <div class="row">
+   
+    
+      <div class="col-lg-10 col-lg-offset-1" xdata-aos="zoom-in"  >
+        <div class="four-box text-center">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-up" data-aos-delay="700" >
+              <div class="box-in bot-box1"> <a href="#">
+                <div class="box-icon"> <span></span> </div>
+                <div class="box-link">Guestbook</div>
+                </a></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 " data-aos="fade-up" data-aos-delay="1000" >
+              <div class="box-in bot-box2"> <a href="#">
+                <div class="box-icon"> <span></span> </div>
+                <div class="box-link">Testimonials</div>
+                </a></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-up" data-aos-delay="1300">
+              <div class="box-in bot-box3"> <a href="#">
+                <div class="box-icon"> <span></span> </div>
+                <div class="box-link">Newsletter</div>
+                </a></div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 " data-aos="fade-up" data-aos-delay="1500" >
+              <div class="box-in bot-box4"> <a href="#">
+                <div class="box-icon"> <span></span> </div>
+                <div class="box-link">Contact us</div>
+                </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="section footer-section text-center">
+    <div class="container" data-aos="fade-up" data-aos-delay="1500" data-aos-once="true" data-aos-duration="2000">
+    
+      <div class="social-links ">
+        <ul class="list-inline">
+          <li><a href="#"><img src="images/f-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/g-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/t-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/p-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/ins-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/in-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/flickr-icon.png" alt=""/></a></li>
+          <li><a href="#"><img src="images/y-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/v-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/stumble-icon.png" alt=""/></a></li>
+          <li><a href="#"><img src="images/tumblr-icon.png" alt=""/></a></li>
+          <li><a href="#"><img src="images/rss-icon.jpg" alt=""/></a></li>
+          <li><a href="#"><img src="images/con-icon.jpg" alt=""/></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- /.container --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Script to Activate the Carousel --> 
+<script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script> 
+<script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script> 
+<script type="text/javascript">
+      $(document).ready(function () {
+        var carousel = $("#carousel").waterwheelCarousel({
+          flankingItems: 3,
+          movingToCenter: function ($item) {
+            $('#callback-output').prepend('movingToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedToCenter: function ($item) {
+            $('#callback-output').prepend('movedToCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movingFromCenter: function ($item) {
+            $('#callback-output').prepend('movingFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          movedFromCenter: function ($item) {
+            $('#callback-output').prepend('movedFromCenter: ' + $item.attr('id') + '<br/>');
+          },
+          clickedCenter: function ($item) {
+            $('#callback-output').prepend('clickedCenter: ' + $item.attr('id') + '<br/>');
+          }
+        });
+
+        $('#prev').bind('click', function () {
+          carousel.prev();
+          return false
+        });
+
+        $('#next').bind('click', function () {
+          carousel.next();
+          return false;
+        });
+
+        $('#reload').bind('click', function () {
+          newOptions = eval("(" + $('#newoptions').val() + ")");
+          carousel.reload(newOptions);
+          return false;
+        });
+
+      });
+    </script> 
+
+<!-- FlexSlider --> 
+<script defer src="js/jquery.flexslider.js"></script> 
+<script defer src="js/jquery.flexslider2.js"></script> 
+<script type="text/javascript">
+
+    (function() {
+
+      // store the slider in a local variable
+      var $window = $(window),
+          flexslider;
+
+      // tiny helper function to add breakpoints
+      function getGridSize() {
+        return (window.innerWidth < 500) ? 1 :
+			   (window.innerWidth < 600) ? 1 :
+               (window.innerWidth < 900) ? 1 : 1;
+      }
+
+      $(function() {
+        SyntaxHighlighter.all();
+      });
+
+      $window.load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide",
+          animationSpeed: 400,
+          animationLoop: false,
+          itemWidth: 210,
+          itemMargin: 5,
+          minItems: getGridSize(), // use function to pull in initial value
+          maxItems: getGridSize(), // use function to pull in initial value
+          start: function(slider){
+            $('body').removeClass('loading');
+            flexslider = slider;
+          }
+        });
+      });
+
+      // check grid size on resize event
+      $window.resize(function() {
+        var gridSize = getGridSize();
+
+        flexslider.vars.minItems = gridSize;
+        flexslider.vars.maxItems = gridSize;
+      });
+    }());
+
+
+  </script> 
+<script type="text/javascript">
+
+    (function() {
+
+      // store the slider in a local variable
+      var $window = $(window),
+          flexslider2;
+
+      // tiny helper function to add breakpoints
+      function getGridSize() {
+        return (window.innerWidth < 550) ? 1 :
+			   (window.innerWidth < 767) ? 2 :
+               (window.innerWidth < 991) ? 3 : 4;
+      }
+
+      $(function() {
+        SyntaxHighlighter.all();
+      });
+
+      $window.load(function() {
+        $('.flexslider2').flexslider({
+          animation: "slide",
+          animationSpeed: 400,
+          animationLoop: false,
+          itemWidth: 210,
+          itemMargin: 5,
+          minItems: getGridSize(), // use function to pull in initial value
+          maxItems: getGridSize(), // use function to pull in initial value
+          start: function(slider){
+            $('body').removeClass('loading');
+            flexslider = slider;
+          }
+        });
+      });
+
+      // check grid size on resize event
+      $window.resize(function() {
+        var gridSize = getGridSize();
+
+        flexslider.vars.minItems = gridSize;
+        flexslider.vars.maxItems = gridSize;
+      });
+    }());
+
+
+  </script> 
+<script src="js/aos.js"></script> 
+<!-- <script src="http://localhost:3002/dist/aos.js"></script> --> 
+
+<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1500
+			});
+		</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+https://joomla.artgalaxie.com/
+Super Spasov 
+2v)sv%yApia8m,UHXDXY
+
+CPanel
+www.artgalaxie.com/cpanel
+artgal6
+knzWfxmwnQY?8c&
+
+ftp
+artgal6
+artgal6
+
+
+backend
+https://www.artgalaxie.com/webmaster/dashboard
+websecure
+VtjLNidU3v@q[CQ
+
+
+https://www.dropbox.com/sh/3mn3p7dh5z3yji7/AACE9fOYkxahBpejc-Zg5Kmsa?dl=0
+
+
+
+https://www.pedroboaventura.com/
+
+
+https://www.facebook.com/Boaventura.Art/?ref=bookmarks
+
+
+https://www.youtube.com/watch?v=IPvQsjKGvHw
+
+select sum(visitors) v, sum(hits) h, year(date) y, weekofyear(date) w
+from tbl_analytics_daily_visitors
+group by year(date), weekofyear(date)

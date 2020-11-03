@@ -1,0 +1,75 @@
+
+  .dock {
+    /*border:solid 2px #f8f8f8;*/
+    background-color: #fff;
+    /*width: 600px;*/
+    width: 100%;
+    /*height: 300px;*/
+    color: #aaa;
+    font-size: 18px;
+    text-align: center;
+    /*padding-top: 100px;*/
+    padding: 25px 0;
+    margin-bottom:20px;
+  }
+  .dock_hover {
+    border: 4px dotted #4d90fe;
+    background-color: #e7f0ff;
+    /*width: 600px;*/
+    width: 100%;
+    /*height: 300px;*/
+    color: #4d90fe;
+    font-size: 18px;
+    text-align: center;
+    /*padding-top: 100px;*/
+    padding: 75px 0;
+    margin-bottom:20px;
+  }
+  .progress-bg {
+    box-shadow:0 2px 5px #c4c4c4;
+  border:1px solid #efefef;
+  height:22px;
+  border-radius:9px;
+}
+.result-in {
+     /* border: 1px solid #f8f8f8;
+    overflow: hidden;
+  padding: 15px;*/
+}
+.result-in .thumbnail {
+    /*border: 1px dashed #000;*/
+    display: block;
+    margin: 0;
+    padding: 5px; height:70px; box-shadow:0 0 2px #ccc; overflow:hidden;
+}
+
+.result-in .col-xs-6.col-md-3, .result-in .col-xs-3.col-md-3 {
+  padding-top:20px;
+}
+
+.textinput.form-control.numberonly {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.uplode-img {
+    padding-top: 20px;
+    position: relative;
+}
+
+.remove-un-uploaded-img {
+    background: #000;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 1px 4px;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+}
+
+@media (max-width:767px){
+ .result-in .thumbnail{min-height:70px; height:auto;}
+}

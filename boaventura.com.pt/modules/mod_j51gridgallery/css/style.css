@@ -1,0 +1,192 @@
+.grid * {
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}
+ul.grid  {
+    text-align:center; 
+}
+.grid li.j51gridgallery {
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: text-top;
+    padding:10px;
+}
+
+ul.grid li a, ul.grid li:first-child a {
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid .grid-image {
+    position: relative;
+}
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+    z-index:0;
+}
+
+.grid figcaption {
+    top: 0;
+    left: 0;
+    padding: 0px;
+    background: #aaa;
+    text-align: left;
+    text-transform: none; 
+    position: relative;
+    z-index: 1;  
+}
+
+.grid h3 {
+    margin: 0;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+    line-height: 1em;
+    position:absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+}
+
+.grid figcaption span {
+    color: #cccccc;
+    line-height: 1.8em;
+    display: block;
+    padding: 20px 30px 25px;
+}
+
+/* Caption Style */
+.j51gridgallery figure {
+  overflow: hidden;
+}
+
+.j51gridgallery figure img {
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+     -moz-transition: -moz-transform    0.4s ease-out;
+          transition: transform         0.4s ease-out;
+  width: calc(100% + 60px);
+  max-width: none;
+}
+
+.no-touch .j51gridgallery figure:hover img,
+.j51gridgallery figure.cs-hover img {
+  bottom:0px;
+  -webkit-transform: translate3d(-50px, 0px, 0px);
+     -moz-transform: translate3d(-50px, 0px, 0px);
+      -ms-transform: translate3d(-50px, 0px, 0px);
+          transform: translate3d(-50px, 0px, 0px);
+}
+
+.j51gridgallery figcaption {
+  height:100%;
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s 0.2s;
+     -moz-transition: opacity 0.5s 0.2s;
+          transition: opacity 0.5s 0.2s;
+}
+
+.no-touch .j51gridgallery figure:hover figcaption,
+.j51gridgallery figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition:    opacity 0.5s;
+  transition:         opacity 0.5s;
+}
+
+
+.grid figure a:hover img {
+    -moz-transform:scale(1.08);
+    -webkit-transform:scale(1.08);
+    -o-transform:scale(1.08);
+}
+
+.grid figure .featured-info {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #e4e4e4;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.625em;
+    background: #222;
+    background: rgba(20,20,20,0.75);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    z-index: 5;
+    opacity: 0;
+}
+
+.grid figure .featured-info .info-wrapper {
+    width: 100%;
+}
+
+.grid figure:hover .featured-info {
+    opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+    
+.grid figure .featured-info::before,
+.grid figure .featured-info::after {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.grid figure .featured-info::before {
+    border-top: 10px solid rgba(0,0,0,1);
+    border-bottom: 10px solid rgba(0,0,0,1);
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+.grid figure .featured-info::after {
+    border-right: 10px solid rgba(0,0,0,1);
+    border-left: 10px solid rgba(0,0,0,1);
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+
+.grid figure:hover .featured-info::before,
+.grid figure:hover .featured-info::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
